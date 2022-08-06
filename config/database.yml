@@ -17,9 +17,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: at_portfolio_development
+  database: js_portfolio_development
   pool: 5
-  username: at_portfolio
+  username: js_portfolio
   password: '721'
 
   # The specified database role being used to connect to postgres.
@@ -55,9 +55,9 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: at_portfolio_test
+  database: js_portfolio_test
   pool: 5
-  username: at_portfolio
+  username: js_portfolio
   password: '721'
 
 # As with config/credentials.yml, you never want to store sensitive information,
@@ -83,7 +83,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: at_portfolio_production
+  database: js_portfolio_production
   pool: 5
-  username: at_portfolio
+  username: js_portfolio
   password: '721'

@@ -13,13 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+
+
 @font-face {
     font-family: 'LobsterTwo';
     src: url('LobsterTwo-Regular.ttf');
 }
 
- .main-body {
-    overflow: hidden;
+ #body {
+    overflow: scroll;
     width: 100%;
     height: 100%;
     background-color: rgb(7, 2, 1);
@@ -29,6 +32,8 @@
     padding-top: 0px;
     padding-bottom: 0px;
     font-family: 'LobsterTwo';
+    padding-bottom: 25px;
+    z-index: -1;
 }
 
 .background-pic {
@@ -38,32 +43,6 @@
     height: auto;
     z-index: -1;
     position: absolute;
-}
-.header-objects {
-    font-size: 24px;
-}
-
-.header-object2 {
-    
-}
-
-.header-object3 {
-    font-size: 24px;
-}
-
-.footer-info {
-    color: black;
-    opacity: 60%;
-    font-size: 15px;
-
-}
-
-.footer-objects {
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
 }
 
 button {
@@ -77,16 +56,106 @@ button {
     padding-top: 18px;
 }
 
+.header-object1 {
+    font-size: 24px;
+}
+.header-object2 {
+    
+}
+.header-object3 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
 
+}
 .header-logo-image {
-    border-radius: 40px;
+    border-radius: 50px;
     opacity: 85%;
     margin-top: 10px;
-    perspective: 1000px;
     transition: 500ms;
 }
 .header-logo-image:hover {
     transform: scalex(-1)
 }
 .header-logo-image:active {
+}
+
+#whole-body-content {
+    padding-top: 70px;
+    font-size: 52px;
+    z-index: 100;
+
+}
+
+.first-body {
+
+}
+
+#whole-second-body {
+    border-color: rgba(0, 255, 0, 0.54);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    right: 50px;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 50px;
+    box-shadow: 5px 10px 8px 10px #00941e;
+
+}
+
+#second-body-verbiage {
+    padding-left: 35px;
+}
+
+#second-body-image {
+}
+
+#whole-third-body {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    right: 50px;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px 8px 10px #8f1111;
+}
+
+#third-body-verbiage {
+    text-justify: center;
+    padding-right: 35px;
+}
+
+#third-body-image {
+}
+
+
+
+.footer-info {
+    color: white;
+    opacity: 60%;
+    font-size: 15px;
+    bottom: 10px;
+
+}
+
+.footer-objects {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+#footer {
+    position: static;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
 }

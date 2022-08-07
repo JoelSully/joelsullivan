@@ -1,7 +1,6 @@
 <div class="d-block p-2">
   <div class="d-flex flex-row justify-content-between mb-3">
-
-    <div class="header-objects">
+    <div class="header-object1">
       <div class="p-2 text-nowrap">
         <%= link_to "<button>Joel Sullivan</button>".html_safe, root_path, :id => "button_id", :class => "button_class" %>
       </div>
@@ -15,25 +14,14 @@
       </div>
     </div>
     
-    <div class="header-objects">
+    <div class="header-object3">
       <div class='d-flex'>
-          <div class="p2">
+          <div class="p2 text-nowrap">
           <%= link_to "<button>About Me</button>".html_safe, home_about_path, :id => "button_id", :class => "button_class" %>
           </div>
 
-          <div class="p2">
-            <%= link_to 'Other', root_path, class: "nav-link" %>
-          </div>
-
-          <div class="p2 dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu">
-              <div><a class="dropdown-item" href="#">Action</a></div>
-              <div><a class="dropdown-item" href="#">Another action</a></div>
-              <div><a class="dropdown-item" href="#">Something else here</a></div>
-            </div>
+          <div class="p2 text-nowrap">
+          <%= link_to "<button>Recent Projects</button>".html_safe, root_path, :id => "button_id", :class => "button_class" %>
           </div>
         </div>
 

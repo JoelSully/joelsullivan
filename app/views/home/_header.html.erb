@@ -1,31 +1,42 @@
-<nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <%= link_to 'Panda', root_path, class:"navbar-brand" %>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
-        </li>
-        <li class="nav-item">
-          <%= link_to 'Other', root_path, class: "nav-link" %>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">THIRD</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            FOURTH WITH DROPDOWN
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
+<div class="d-block p-2">
+  <div class="d-flex flex-row justify-content-between mb-3">
+
+    <div class="header-objects">
+      <div class="p-2 text-nowrap">
+        <%= link_to "<button>Joel Sullivan</button>".html_safe, root_path, :id => "button_id", :class => "button_class" %>
+      </div>
+    </div>
+
+    <div class="header-object2">
+      <div class="p-2 text-nowrap position-absolute top-0 start-50 translate-middle-x">
+        <div>
+          <img src="assets/images/scs_logo.png" class="header-logo-image" style="width: 87px;">
+        </div>
+      </div>
+    </div>
+    
+    <div class="header-objects">
+      <div class='d-flex'>
+          <div class="p2">
+          <%= link_to "<button>About Me</button>".html_safe, home_about_path, :id => "button_id", :class => "button_class" %>
+          </div>
+
+          <div class="p2">
+            <%= link_to 'Other', root_path, class: "nav-link" %>
+          </div>
+
+          <div class="p2 dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu">
+              <div><a class="dropdown-item" href="#">Action</a></div>
+              <div><a class="dropdown-item" href="#">Another action</a></div>
+              <div><a class="dropdown-item" href="#">Something else here</a></div>
+            </div>
+          </div>
+        </div>
+
     </div>
   </div>
-</nav>
+</div>

@@ -4430,3 +4430,3542 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 77ms (Views: 72.6ms | ActiveRecord: 0.0ms | Allocations: 64822)
 
 
+Started GET "/" for ::1 at 2022-08-06 18:13:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 404)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 436)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 47353)
+Completed 200 OK in 58ms (Views: 54.7ms | ActiveRecord: 0.0ms | Allocations: 52718)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:22:10 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 153)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 379)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 41.3ms | Allocations: 27725)
+Completed 200 OK in 46ms (Views: 44.2ms | Allocations: 28760)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:22:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 6058)
+Completed 200 OK in 18ms (Views: 16.8ms | Allocations: 6379)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:22:31 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3141)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 3456)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:22:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 6043)
+Completed 200 OK in 17ms (Views: 16.2ms | Allocations: 6362)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:22:44 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 3151)
+Completed 200 OK in 26ms (Views: 24.9ms | Allocations: 3467)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:23:04 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 6483)
+Completed 200 OK in 19ms (Views: 17.9ms | Allocations: 6798)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:23:05 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3135)
+Completed 200 OK in 14ms (Views: 13.5ms | Allocations: 3454)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:23:20 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 5988)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 6303)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:23:36 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 6013)
+Completed 200 OK in 16ms (Views: 15.2ms | Allocations: 6328)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:23:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3141)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 3456)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:23:38 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3143)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 3458)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:23:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 6963)
+Completed 200 OK in 17ms (Views: 15.7ms | Allocations: 7278)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:24:13 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 156)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 379)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 4186)
+Completed 200 OK in 17ms (Views: 16.0ms | Allocations: 5215)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:24:32 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 404)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 436)
+  Rendered home/_footer.html.erb (Duration: 0.1ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 47419)
+Completed 200 OK in 42ms (Views: 37.9ms | ActiveRecord: 0.0ms | Allocations: 52785)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:24:54 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 6504)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 6828)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:25:16 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 6899)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 7221)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:25:46 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 5068)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 5386)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:25:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3152)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 3474)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:26:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 6435)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 6753)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:26:10 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3140)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3462)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:26:22 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 6436)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 6754)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:26:23 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3129)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 3447)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:27:10 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 6040)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms | Allocations: 6358)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:27:40 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 7396)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 7714)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:28:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 5514)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 5832)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:28:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3143)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3461)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:28:26 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 7370)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 7688)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:28:41 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 6488)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 6806)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:28:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3131)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 3449)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:28:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3139)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3457)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:28:52 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 5952)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 6270)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:29:00 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 5999)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 6317)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:32:46 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 158)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 379)
+  Rendered home/_footer.html.erb (Duration: 0.7ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 8029)
+Completed 200 OK in 25ms (Views: 23.5ms | Allocations: 9060)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:34:54 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 153)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 379)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4201)
+Completed 200 OK in 16ms (Views: 14.5ms | Allocations: 5232)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:35:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 153)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 379)
+  Rendered home/_scslogo.html.erb (Duration: 0.9ms | Allocations: 190)
+  Rendered home/_footer.html.erb (Duration: 0.3ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 4471)
+Completed 200 OK in 18ms (Views: 16.2ms | Allocations: 5502)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:36:46 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.8ms | Allocations: 193)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 469)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.7ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 4459)
+Completed 200 OK in 21ms (Views: 19.6ms | Allocations: 5489)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:37:49 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.7ms | Allocations: 194)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 466)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 7799)
+Completed 200 OK in 24ms (Views: 22.5ms | Allocations: 8829)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:38:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 5622)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 5938)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:38:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 6059)
+Completed 200 OK in 16ms (Views: 15.3ms | Allocations: 6374)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:39:11 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 6085)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 6400)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:39:21 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 7447)
+Completed 200 OK in 19ms (Views: 18.7ms | Allocations: 7762)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:39:22 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3205)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 3520)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:40:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.8ms | Allocations: 182)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 454)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.9ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 4482)
+Completed 200 OK in 20ms (Views: 18.4ms | Allocations: 5511)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:40:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 6553)
+Completed 200 OK in 23ms (Views: 21.8ms | Allocations: 6869)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:42:04 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3846)
+Completed 200 OK in 11ms (Views: 10.3ms | Allocations: 4161)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:42:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 6103)
+Completed 200 OK in 18ms (Views: 17.0ms | Allocations: 6418)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:45:12 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 1.0ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 456)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 378)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 7746)
+Completed 200 OK in 26ms (Views: 24.6ms | Allocations: 8775)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:45:52 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.5ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 453)
+  Rendered home/_header.html.erb (Duration: 13.2ms | Allocations: 5993)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 9799)
+Completed 500 Internal Server Error in 25ms (Allocations: 10813)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= link_to '<%= render home/scslogo %>', root_path, class:"navbar-brand" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= link_to '<%= render home/scslogo %>', root_path, class:"navbar-brand" %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:45:59 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.5ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 453)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 1287)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 5110)
+Completed 500 Internal Server Error in 14ms (Allocations: 6108)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= link_to '<% render home/scslogo %>', root_path, class:"navbar-brand" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= link_to '<% render home/scslogo %>', root_path, class:"navbar-brand" %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected backslash, expecting ')'
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:46:31 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.5ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 456)
+  Rendered home/_header.html.erb (Duration: 10.0ms | Allocations: 4524)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 8350)
+Completed 500 Internal Server Error in 20ms (Allocations: 9350)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home' for #<ActionView::Base:0x0000000000c6c0>):
+    1: <nav class="navbar navbar-expand-lg bg-light">
+    2:   <div class="container-fluid">
+    3:     <%= link_to home/scslogo, root_path, class:"navbar-brand" %>
+    4:     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    5:       <span class="navbar-toggler-icon"></span>
+    6:     </button>
+  
+app/views/home/_header.html.erb:3
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:47:33 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.6ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 453)
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 403)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 4487)
+Completed 200 OK in 18ms (Views: 16.8ms | Allocations: 5517)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:47:52 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.5ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 453)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 5077)
+Completed 500 Internal Server Error in 13ms (Allocations: 6074)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= render 'scslogo' scale '10' %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= render 'scslogo' scale '10' %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:47:59 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.9ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 453)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 5093)
+Completed 500 Internal Server Error in 18ms (Allocations: 6090)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= render 'scslogo' scale '10%' %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= render 'scslogo' scale '10%' %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:48:10 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.5ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 453)
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 403)
+  Rendered home/_footer.html.erb (Duration: 1.0ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 4469)
+Completed 200 OK in 17ms (Views: 15.3ms | Allocations: 5499)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:50:21 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 1.1ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 453)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 5083)
+Completed 500 Internal Server Error in 18ms (Allocations: 6080)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= render 'scslogo' class="header_logo" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= render 'scslogo' class="header_logo" %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:50:31 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.5ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 456)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 5102)
+Completed 500 Internal Server Error in 15ms (Allocations: 6099)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= render 'scslogo' class "header_logo" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= render 'scslogo' class "header_logo" %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:50:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.7ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 453)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 5099)
+Completed 500 Internal Server Error in 16ms (Allocations: 6096)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= render 'scslogo', class "header_logo" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= render 'scslogo', class "header_logo" %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:33: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:51:24 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.6ms | Allocations: 181)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 453)
+  Rendered home/_scslogo.html.erb (Duration: 0.6ms | Allocations: 179)
+  Rendered home/_header.html.erb (Duration: 2.1ms | Allocations: 590)
+  Rendered home/_footer.html.erb (Duration: 1.3ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 4664)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 5694)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:51:50 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 7435)
+Completed 200 OK in 19ms (Views: 17.7ms | Allocations: 7751)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:51:55 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 167)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 6592)
+Completed 200 OK in 19ms (Views: 18.5ms | Allocations: 6907)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:52:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 86)
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 167)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 7000)
+Completed 200 OK in 20ms (Views: 18.1ms | Allocations: 7315)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:54:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.9ms | Allocations: 180)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 455)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 1165)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 7846)
+Completed 500 Internal Server Error in 24ms (Allocations: 8842)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= render 'scslogo', max-width: "100%" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= render 'scslogo', max-width: "100%" %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected ':', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ':', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ':', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ':', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ':', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ':', expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:54:34 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.6ms | Allocations: 179)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 451)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 5103)
+Completed 500 Internal Server Error in 12ms (Allocations: 6100)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= render 'scslogo', max-width "100%" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= render 'scslogo', max-width "100%" %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 18:55:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 1.0ms | Allocations: 179)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 451)
+  Rendered home/_scslogo.html.erb (Duration: 1.0ms | Allocations: 177)
+  Rendered home/_header.html.erb (Duration: 2.4ms | Allocations: 587)
+  Rendered home/_footer.html.erb (Duration: 0.7ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 4653)
+Completed 200 OK in 30ms (Views: 26.0ms | Allocations: 5683)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 18:56:00 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 117)
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 168)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3267)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 3643)
+
+
+Started GET "/" for ::1 at 2022-08-06 18:56:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.7ms | Allocations: 179)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 451)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 842)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 4906)
+Completed 200 OK in 25ms (Views: 23.6ms | Allocations: 5935)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:22:30 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.2ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 3.6ms | Allocations: 2004)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 5467)
+Completed 500 Internal Server Error in 22ms (Allocations: 6465)
+
+
+  
+ActionView::Template::Error (The asset "home/scslogo" is not present in the asset pipeline.
+):
+    1: <nav class="navbar navbar-expand-lg bg-light">
+    2:   <div class="container-fluid">
+    3:     <%= link_to image_tag("home/scslogo"), class: "header_logo" %>
+    4:     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    5:       <span class="navbar-toggler-icon"></span>
+    6:     </button>
+  
+app/views/home/_header.html.erb:3
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:22:41 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.0ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 2.9ms | Allocations: 1995)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 5474)
+Completed 500 Internal Server Error in 16ms (Allocations: 6470)
+
+
+  
+ActionView::Template::Error (The asset "home/scslogo" is not present in the asset pipeline.
+):
+    1: <nav class="navbar navbar-expand-lg bg-light">
+    2:   <div class="container-fluid">
+    3:     <%= link_to image_tag("home/scslogo") %>
+    4:     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    5:       <span class="navbar-toggler-icon"></span>
+    6:     </button>
+  
+app/views/home/_header.html.erb:3
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:23:34 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 1.8ms | Allocations: 1997)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 5476)
+Completed 500 Internal Server Error in 16ms (Allocations: 6472)
+
+
+  
+ActionView::Template::Error (The asset "home/scslogo.jpg" is not present in the asset pipeline.
+):
+    1: <nav class="navbar navbar-expand-lg bg-light">
+    2:   <div class="container-fluid">
+    3:     <%= link_to image_tag("home/scslogo.jpg") %>
+    4:     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    5:       <span class="navbar-toggler-icon"></span>
+    6:     </button>
+  
+app/views/home/_header.html.erb:3
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:24:58 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 7.7ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 1995)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 5474)
+Completed 500 Internal Server Error in 28ms (Allocations: 6470)
+
+
+  
+ActionView::Template::Error (The asset "home/scslogo" is not present in the asset pipeline.
+):
+    1: <nav class="navbar navbar-expand-lg bg-light">
+    2:   <div class="container-fluid">
+    3:     <%= link_to image_tag("home/scslogo") %>
+    4:     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    5:       <span class="navbar-toggler-icon"></span>
+    6:     </button>
+  
+app/views/home/_header.html.erb:3
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:25:23 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 122)
+  Rendered home/_scslogo.html.erb (Duration: 0.7ms | Allocations: 180)
+  Rendered home/_header.html.erb (Duration: 3.0ms | Allocations: 632)
+  Rendered home/_footer.html.erb (Duration: 0.7ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 4374)
+Completed 200 OK in 21ms (Views: 19.0ms | Allocations: 5405)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:29:38 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.6ms | Allocations: 122)
+  Rendered home/_scslogo.html.erb (Duration: 0.6ms | Allocations: 179)
+  Rendered home/_header.html.erb (Duration: 1.9ms | Allocations: 637)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 8162)
+Completed 200 OK in 36ms (Views: 32.9ms | Allocations: 9192)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:29:55 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 171)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 7382)
+Completed 200 OK in 26ms (Views: 24.1ms | Allocations: 7698)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:30:06 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 171)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 5591)
+Completed 200 OK in 18ms (Views: 17.3ms | Allocations: 5906)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:37:56 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 171)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3176)
+Completed 200 OK in 13ms (Views: 11.0ms | Allocations: 3491)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:43:12 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.6ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 32.9ms | Allocations: 24857)
+  Rendered home/_footer.html.erb (Duration: 1.8ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | Allocations: 28586)
+Completed 200 OK in 51ms (Views: 49.9ms | Allocations: 29615)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:43:27 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 2.4ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 1.9ms | Allocations: 1291)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 4784)
+Completed 500 Internal Server Error in 17ms (Allocations: 5781)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= image_tag("scs_logo.png", class: "img-fluid" width: "100%") %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= image_tag("scs_logo.png", class: "img-fluid" width: "100%") %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:43:32 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 1291)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4800)
+Completed 500 Internal Server Error in 16ms (Allocations: 5797)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= image_tag("scs_logo.png", class: "img-fluid" width: "10") %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= image_tag("scs_logo.png", class: "img-fluid" width: "10") %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:44:17 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 1291)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 4800)
+Completed 500 Internal Server Error in 13ms (Allocations: 5797)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= image_tag("scs_logo.png", class: "img-fluid") class="logo_img" %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= image_tag("scs_logo.png", class: "img-fluid") class="logo_img" %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:44:28 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 1291)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4800)
+Completed 500 Internal Server Error in 14ms (Allocations: 5797)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= image_tag("scs_logo.png", class: "img-fluid" class="logo_img")  %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= image_tag("scs_logo.png", class: "img-fluid" class="logo_img")  %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected `class', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:44:34 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 2.2ms | Allocations: 805)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4576)
+Completed 200 OK in 17ms (Views: 16.1ms | Allocations: 5606)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:46:23 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.0ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 4.0ms | Allocations: 1996)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 5478)
+Completed 500 Internal Server Error in 18ms (Allocations: 6474)
+
+
+  
+ActionView::Template::Error (The asset "assets/images/scs_logo.png" is not present in the asset pipeline.
+):
+    1: <nav class="navbar navbar-expand-lg bg-light">
+    2:   <div class="container-fluid">
+    3:     <%= button_tag image_tag('assets/images/scs_logo.png') %>
+    4:     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    5:       <span class="navbar-toggler-icon"></span>
+    6:     </button>
+  
+app/views/home/_header.html.erb:3
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:48:58 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4788)
+Completed 500 Internal Server Error in 14ms (Allocations: 5785)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= link_to(image_tag("images/scs_logo.png"), class: 'image-responsive'), root_path,  :method => :get %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= link_to(image_tag("images/scs_logo.png"), class: 'image-responsive'), root_path,  :method => :get %>
+4:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+5:          <span class="navbar-toggler-icon"></span>
+6:        </button>
+7:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+8:          <ul class="navbar-nav">
+9:            <li class="nav-item">
+10:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <%= link_to 'Other', root_path, class: "nav-link" %>
+14:            </li>
+15:            <li class="nav-item">
+16:              <a class="nav-link" href="#">THIRD</a>
+17:            </li>
+18:            <li class="nav-item dropdown">
+19:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+20:                FOURTH WITH DROPDOWN
+21:              </a>
+22:              <ul class="dropdown-menu">
+23:                <li><a class="dropdown-item" href="#">Action</a></li>
+24:                <li><a class="dropdown-item" href="#">Another action</a></li>
+25:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+26:              </ul>
+27:            </li>
+28:          </ul>
+29:        </div>
+30:      </div>
+31:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected ',', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:3: syntax error, unexpected ',', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:3: syntax error, unexpected ',', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:3: syntax error, unexpected ',', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:3: syntax error, unexpected ',', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:3: syntax error, unexpected ',', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:50:53 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 2.1ms | Allocations: 817)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4580)
+Completed 200 OK in 16ms (Views: 14.2ms | Allocations: 5610)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:51:05 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 570)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3578)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 3897)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:52:22 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.3ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 812)
+  Rendered home/_footer.html.erb (Duration: 1.0ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 4549)
+Completed 200 OK in 19ms (Views: 18.0ms | Allocations: 5578)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:52:34 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 810)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4553)
+Completed 200 OK in 15ms (Views: 13.0ms | Allocations: 5583)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:52:50 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.3ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 2.1ms | Allocations: 808)
+  Rendered home/_footer.html.erb (Duration: 0.8ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 4559)
+Completed 200 OK in 17ms (Views: 15.9ms | Allocations: 5589)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:52:51 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 572)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3591)
+Completed 200 OK in 15ms (Views: 14.5ms | Allocations: 3911)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:53:03 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 570)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3586)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 3904)
+
+
+Started GET "/" for ::1 at 2022-08-06 19:53:05 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 1.2ms | Allocations: 179)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 448)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 569)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 4015)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 4389)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:53:08 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 570)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3582)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 3900)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:53:40 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 1286)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 4765)
+Completed 500 Internal Server Error in 15ms (Allocations: 5761)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= image_submit_tag("scs_logo.png", class: 'image-responsive', root_path) %>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= image_submit_tag("scs_logo.png", class: 'image-responsive', root_path) %>
+4:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+5:          <ul class="navbar-nav">
+6:            <li class="nav-item">
+7:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+8:            </li>
+9:            <li class="nav-item">
+10:              <%= link_to 'Other', root_path, class: "nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <a class="nav-link" href="#">THIRD</a>
+14:            </li>
+15:            <li class="nav-item dropdown">
+16:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+17:                FOURTH WITH DROPDOWN
+18:              </a>
+19:              <ul class="dropdown-menu">
+20:                <li><a class="dropdown-item" href="#">Action</a></li>
+21:                <li><a class="dropdown-item" href="#">Another action</a></li>
+22:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+23:              </ul>
+24:            </li>
+25:          </ul>
+26:        </div>
+27:      </div>
+28:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:53:55 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 1286)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4781)
+Completed 500 Internal Server Error in 14ms (Allocations: 5778)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= image_submit_tag("scs_logo.png", root_path class: 'image-responsive') %>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= image_submit_tag("scs_logo.png", root_path class: 'image-responsive') %>
+4:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+5:          <ul class="navbar-nav">
+6:            <li class="nav-item">
+7:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+8:            </li>
+9:            <li class="nav-item">
+10:              <%= link_to 'Other', root_path, class: "nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <a class="nav-link" href="#">THIRD</a>
+14:            </li>
+15:            <li class="nav-item dropdown">
+16:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+17:                FOURTH WITH DROPDOWN
+18:              </a>
+19:              <ul class="dropdown-menu">
+20:                <li><a class="dropdown-item" href="#">Action</a></li>
+21:                <li><a class="dropdown-item" href="#">Another action</a></li>
+22:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+23:              </ul>
+24:            </li>
+25:          </ul>
+26:        </div>
+27:      </div>
+28:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:3: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:54:07 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 1.9ms | Allocations: 1309)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4803)
+Completed 500 Internal Server Error in 15ms (Allocations: 5801)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 3, expected 1..2)):
+    1: <nav class="navbar navbar-expand-lg bg-light">
+    2:   <div class="container-fluid">
+    3:     <%= image_submit_tag("scs_logo.png", root_path, class: 'image-responsive') %>
+    4:     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    5:       <ul class="navbar-nav">
+    6:         <li class="nav-item">
+  
+app/views/home/_header.html.erb:3
+app/views/layouts/application.html.erb:20
+Started GET "/home/about" for ::1 at 2022-08-06 19:56:32 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.0ms | Allocations: 122)
+  Rendered home/_header.html.erb (Duration: 2.2ms | Allocations: 839)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 4596)
+Completed 200 OK in 18ms (Views: 16.4ms | Allocations: 5626)
+
+
+Started GET "/" for ::1 at 2022-08-06 19:56:33 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.6ms | Allocations: 178)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 444)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4044)
+Completed 200 OK in 12ms (Views: 11.1ms | Allocations: 4419)
+
+
+Started GET "/" for ::1 at 2022-08-06 19:56:33 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3672)
+Completed 200 OK in 9ms (Views: 7.3ms | Allocations: 3990)
+
+
+Started GET "/" for ::1 at 2022-08-06 19:58:34 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.6ms | Allocations: 179)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 451)
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 1288)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 5093)
+Completed 500 Internal Server Error in 16ms (Allocations: 6089)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <%= link_to(image_tag("scs_logo.png", class: 'image-responsive'), root_path,  :method => :get, (class="logo_header")) %>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <%= link_to(image_tag("scs_logo.png", class: 'image-responsive'), root_path,  :method => :get, (class="logo_header")) %>
+4:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+5:          <ul class="navbar-nav">
+6:            <li class="nav-item">
+7:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+8:            </li>
+9:            <li class="nav-item">
+10:              <%= link_to 'Other', root_path, class: "nav-link" %>
+11:            </li>
+12:            <li class="nav-item">
+13:              <a class="nav-link" href="#">THIRD</a>
+14:            </li>
+15:            <li class="nav-item dropdown">
+16:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+17:                FOURTH WITH DROPDOWN
+18:              </a>
+19:              <ul class="dropdown-menu">
+20:                <li><a class="dropdown-item" href="#">Action</a></li>
+21:                <li><a class="dropdown-item" href="#">Another action</a></li>
+22:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+23:              </ul>
+24:            </li>
+25:          </ul>
+26:        </div>
+27:      </div>
+28:    </nav>
+  
+app/views/home/_header.html.erb:3: syntax error, unexpected '='
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected '='
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected '='
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected '='
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected '='
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/home/_header.html.erb:3: syntax error, unexpected '='
+app/views/home/_header.html.erb:3: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:30: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:20
+Started GET "/" for ::1 at 2022-08-06 19:58:50 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.8ms | Allocations: 179)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 451)
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 835)
+  Rendered home/_footer.html.erb (Duration: 0.8ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 4918)
+Completed 200 OK in 19ms (Views: 17.5ms | Allocations: 5948)
+
+
+Started GET "/" for ::1 at 2022-08-06 19:59:49 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.6ms | Allocations: 179)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 451)
+  Rendered home/_header.html.erb (Duration: 2.7ms | Allocations: 839)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 4902)
+Completed 200 OK in 20ms (Views: 18.2ms | Allocations: 5932)
+
+
+Started GET "/" for ::1 at 2022-08-06 19:59:50 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3676)
+Completed 200 OK in 10ms (Views: 9.6ms | Allocations: 3995)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:59:51 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 118)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 595)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3710)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 4084)
+
+
+Started GET "/" for ::1 at 2022-08-06 19:59:51 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3664)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 3982)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 19:59:57 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 595)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3599)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 3917)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:00:00 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3684)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 4002)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 20:00:03 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 595)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3603)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 3921)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:00:04 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3678)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 3996)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:01:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 86)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 7005)
+Completed 200 OK in 19ms (Views: 18.5ms | Allocations: 7320)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:07:54 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 1.4ms | Allocations: 179)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 451)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 9279)
+Completed 500 Internal Server Error in 27ms (Allocations: 10276)
+
+
+  
+ActionView::Template::Error (Missing partial home/_background with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/joel/Desktop/RoR/sullivanportfolio/app/views"
+  * "/Users/joel/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/joel/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  home/header
+               home/scslogo
+               home/footer
+               action_text/contents/content
+               layouts/action_text/contents/content
+               action_text/attachables/remote_image):
+    12:     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    13:   </head>
+    14:   <body>
+    15:   <%= render 'home/background' %>
+    16:     <div>
+    17:       <div>
+    18:         <%= render 'home/header' %>
+  
+app/views/layouts/application.html.erb:15
+Started GET "/" for ::1 at 2022-08-06 20:08:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/_scslogo.html.erb (Duration: 0.8ms | Allocations: 179)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 451)
+  Rendered home/_background.html.erb (Duration: 2.8ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 2.1ms | Allocations: 839)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 5176)
+Completed 200 OK in 23ms (Views: 21.2ms | Allocations: 6206)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:16:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 134)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 837)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 4860)
+Completed 200 OK in 19ms (Views: 17.6ms | Allocations: 5890)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:22:06 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 2.0ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 2.4ms | Allocations: 837)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 4867)
+Completed 200 OK in 18ms (Views: 17.2ms | Allocations: 5897)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:22:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 0.9ms | Allocations: 473)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3678)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 3994)
+
+
+Started GET "/home/about" for ::1 at 2022-08-06 20:22:08 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.0ms | Allocations: 118)
+  Rendered home/_background.html.erb (Duration: 1.5ms | Allocations: 473)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3776)
+Completed 200 OK in 11ms (Views: 9.4ms | Allocations: 4150)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:22:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 0.6ms | Allocations: 473)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 594)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3674)
+Completed 200 OK in 8ms (Views: 7.7ms | Allocations: 3992)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:31:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 2.1ms | Allocations: 838)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 4863)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 5892)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:32:13 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 2.5ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 838)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 4868)
+Completed 200 OK in 22ms (Views: 19.5ms | Allocations: 5898)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:32:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 0.6ms | Allocations: 475)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 596)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3686)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 4003)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:32:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 136)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.9ms | Allocations: 837)
+  Rendered home/_footer.html.erb (Duration: 0.8ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 4878)
+Completed 200 OK in 18ms (Views: 16.7ms | Allocations: 5907)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:33:21 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 134)
+  Rendered home/_background.html.erb (Duration: 2.0ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 1290)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 5065)
+Completed 500 Internal Server Error in 16ms (Allocations: 6062)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <div class="logo_header">
+      <%= link_to(image_tag("scs_logo.png", class: 'image-responsive-sm', style="width: 100px;"), root_path,  :method => :get) %>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <div class="logo_header">
+4:          <%= link_to(image_tag("scs_logo.png", class: 'image-responsive-sm', style="width: 100px;"), root_path,  :method => :get) %>
+5:        </div>
+6:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+7:          <ul class="navbar-nav">
+8:            <li class="nav-item">
+9:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+10:            </li>
+11:            <li class="nav-item">
+12:              <%= link_to 'Other', root_path, class: "nav-link" %>
+13:            </li>
+14:            <li class="nav-item">
+15:              <a class="nav-link" href="#">THIRD</a>
+16:            </li>
+17:            <li class="nav-item dropdown">
+18:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+19:                FOURTH WITH DROPDOWN
+20:              </a>
+21:              <ul class="dropdown-menu">
+22:                <li><a class="dropdown-item" href="#">Action</a></li>
+23:                <li><a class="dropdown-item" href="#">Another action</a></li>
+24:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+25:              </ul>
+26:            </li>
+27:          </ul>
+28:        </div>
+29:      </div>
+30:    </nav>
+  
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/layouts/application.html.erb:23
+Started GET "/" for ::1 at 2022-08-06 20:33:22 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 0.6ms | Allocations: 475)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 1286)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4319)
+Completed 500 Internal Server Error in 9ms (Allocations: 4602)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <div class="logo_header">
+      <%= link_to(image_tag("scs_logo.png", class: 'image-responsive-sm', style="width: 100px;"), root_path,  :method => :get) %>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <div class="logo_header">
+4:          <%= link_to(image_tag("scs_logo.png", class: 'image-responsive-sm', style="width: 100px;"), root_path,  :method => :get) %>
+5:        </div>
+6:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+7:          <ul class="navbar-nav">
+8:            <li class="nav-item">
+9:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+10:            </li>
+11:            <li class="nav-item">
+12:              <%= link_to 'Other', root_path, class: "nav-link" %>
+13:            </li>
+14:            <li class="nav-item">
+15:              <a class="nav-link" href="#">THIRD</a>
+16:            </li>
+17:            <li class="nav-item dropdown">
+18:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+19:                FOURTH WITH DROPDOWN
+20:              </a>
+21:              <ul class="dropdown-menu">
+22:                <li><a class="dropdown-item" href="#">Action</a></li>
+23:                <li><a class="dropdown-item" href="#">Another action</a></li>
+24:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+25:              </ul>
+26:            </li>
+27:          </ul>
+28:        </div>
+29:      </div>
+30:    </nav>
+  
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/layouts/application.html.erb:23
+Started GET "/" for ::1 at 2022-08-06 20:33:53 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 2.5ms | Allocations: 608)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 1290)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 5080)
+Completed 500 Internal Server Error in 16ms (Allocations: 6076)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <div class="logo_header">
+      <%= link_to(image_tag("scs_logo.png", class: 'image-responsive-sm', style="width: 100px"), root_path,  :method => :get) %>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <div class="logo_header">
+4:          <%= link_to(image_tag("scs_logo.png", class: 'image-responsive-sm', style="width: 100px"), root_path,  :method => :get) %>
+5:        </div>
+6:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+7:          <ul class="navbar-nav">
+8:            <li class="nav-item">
+9:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+10:            </li>
+11:            <li class="nav-item">
+12:              <%= link_to 'Other', root_path, class: "nav-link" %>
+13:            </li>
+14:            <li class="nav-item">
+15:              <a class="nav-link" href="#">THIRD</a>
+16:            </li>
+17:            <li class="nav-item dropdown">
+18:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+19:                FOURTH WITH DROPDOWN
+20:              </a>
+21:              <ul class="dropdown-menu">
+22:                <li><a class="dropdown-item" href="#">Action</a></li>
+23:                <li><a class="dropdown-item" href="#">Another action</a></li>
+24:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+25:              </ul>
+26:            </li>
+27:          </ul>
+28:        </div>
+29:      </div>
+30:    </nav>
+  
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/layouts/application.html.erb:23
+Started GET "/" for ::1 at 2022-08-06 20:33:56 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 1.1ms | Allocations: 475)
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 1286)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4319)
+Completed 500 Internal Server Error in 11ms (Allocations: 4602)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <div class="logo_header">
+      <%= link_to(image_tag("scs_logo.png", class: 'image-responsive-sm', style="width: 100px"), root_path,  :method => :get) %>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to 'Other', root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">THIRD</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOURTH WITH DROPDOWN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg bg-light">
+2:      <div class="container-fluid">
+3:        <div class="logo_header">
+4:          <%= link_to(image_tag("scs_logo.png", class: 'image-responsive-sm', style="width: 100px"), root_path,  :method => :get) %>
+5:        </div>
+6:        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+7:          <ul class="navbar-nav">
+8:            <li class="nav-item">
+9:              <%= link_to 'About Panda', home_about_path, class:"nav-link" %>
+10:            </li>
+11:            <li class="nav-item">
+12:              <%= link_to 'Other', root_path, class: "nav-link" %>
+13:            </li>
+14:            <li class="nav-item">
+15:              <a class="nav-link" href="#">THIRD</a>
+16:            </li>
+17:            <li class="nav-item dropdown">
+18:              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+19:                FOURTH WITH DROPDOWN
+20:              </a>
+21:              <ul class="dropdown-menu">
+22:                <li><a class="dropdown-item" href="#">Action</a></li>
+23:                <li><a class="dropdown-item" href="#">Another action</a></li>
+24:                <li><a class="dropdown-item" href="#">Something else here</a></li>
+25:              </ul>
+26:            </li>
+27:          </ul>
+28:        </div>
+29:      </div>
+30:    </nav>
+  
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting =>
+app/views/home/_header.html.erb:4: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/views/home/_header.html.erb:4: syntax error, unexpected ')', expecting `end'
+app/views/layouts/application.html.erb:23
+Started GET "/" for ::1 at 2022-08-06 20:45:31 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.5ms | Allocations: 608)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 378)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 4430)
+Completed 200 OK in 16ms (Views: 14.9ms | Allocations: 5459)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:46:11 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 1.3ms | Allocations: 473)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 6059)
+Completed 200 OK in 17ms (Views: 16.4ms | Allocations: 6375)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:50:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.3ms | Allocations: 611)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 4471)
+Completed 200 OK in 23ms (Views: 21.5ms | Allocations: 5501)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:50:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 0.8ms | Allocations: 473)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 6555)
+Completed 200 OK in 16ms (Views: 15.2ms | Allocations: 6871)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:51:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 0.6ms | Allocations: 473)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3851)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 4166)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:55:32 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 4410)
+Completed 200 OK in 18ms (Views: 16.4ms | Allocations: 5439)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:55:41 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.3ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4403)
+Completed 200 OK in 16ms (Views: 14.2ms | Allocations: 5433)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:59:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.1ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4406)
+Completed 200 OK in 14ms (Views: 12.4ms | Allocations: 5436)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:59:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 0.9ms | Allocations: 473)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3216)
+Completed 200 OK in 10ms (Views: 9.5ms | Allocations: 3532)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:59:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.7ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 4414)
+Completed 200 OK in 17ms (Views: 15.4ms | Allocations: 5443)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:59:44 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 0.8ms | Allocations: 473)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3222)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 3538)
+
+
+Started GET "/" for ::1 at 2022-08-06 20:59:59 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4412)
+Completed 200 OK in 18ms (Views: 16.9ms | Allocations: 5441)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:00:50 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 4408)
+Completed 200 OK in 16ms (Views: 15.0ms | Allocations: 5438)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:02:01 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.2ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4404)
+Completed 200 OK in 15ms (Views: 13.2ms | Allocations: 5434)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:03:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 134)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.9ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 4412)
+Completed 200 OK in 17ms (Views: 15.5ms | Allocations: 5443)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:03:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.3ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.8ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 4396)
+Completed 200 OK in 16ms (Views: 15.3ms | Allocations: 5426)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:03:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 0.9ms | Allocations: 475)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3229)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 3545)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:03:36 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.8ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4404)
+Completed 200 OK in 17ms (Views: 16.2ms | Allocations: 5433)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:04:42 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 1.8ms | Allocations: 614)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 4426)
+Completed 200 OK in 22ms (Views: 21.3ms | Allocations: 5457)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:05:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 142)
+  Rendered home/_background.html.erb (Duration: 1.8ms | Allocations: 608)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 4420)
+Completed 200 OK in 17ms (Views: 15.4ms | Allocations: 5450)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:05:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 759)
+  Rendered home/_background.html.erb (Duration: 1.9ms | Allocations: 601)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 4880)
+Completed 200 OK in 19ms (Views: 17.7ms | Allocations: 5910)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:06:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 142)
+  Rendered home/_background.html.erb (Duration: 1.1ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 4411)
+Completed 200 OK in 15ms (Views: 13.7ms | Allocations: 5441)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/scs_logo.png"):
+  
+Started GET "/" for ::1 at 2022-08-06 21:10:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 132)
+  Rendered home/_background.html.erb (Duration: 1.8ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.9ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 4404)
+Completed 200 OK in 17ms (Views: 15.8ms | Allocations: 5434)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/scs_logo.png"):
+  
+Started GET "/" for ::1 at 2022-08-06 21:11:35 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 132)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 608)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.8ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 4414)
+Completed 200 OK in 17ms (Views: 16.2ms | Allocations: 5444)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/scs_logo.jpg"):
+  
+Started GET "/" for ::1 at 2022-08-06 21:11:36 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 1.0ms | Allocations: 473)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3210)
+Completed 200 OK in 12ms (Views: 10.6ms | Allocations: 3526)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/scs_logo.jpg"):
+  
+Started GET "/" for ::1 at 2022-08-06 21:12:11 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 132)
+  Rendered home/_background.html.erb (Duration: 1.3ms | Allocations: 608)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4426)
+Completed 200 OK in 15ms (Views: 14.0ms | Allocations: 5455)
+
+
+Started GET "/~/desktop/ror/sullivanportfolio/app/assets/images/scs_logo.jpg" for ::1 at 2022-08-06 21:12:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/~/desktop/ror/sullivanportfolio/app/assets/images/scs_logo.jpg"):
+  
+Started GET "/" for ::1 at 2022-08-06 21:12:11 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered home/_background.html.erb (Duration: 1.0ms | Allocations: 475)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 136)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3236)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 3552)
+
+
+Started GET "/~/desktop/ror/sullivanportfolio/app/assets/images/scs_logo.jpg" for ::1 at 2022-08-06 21:12:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/~/desktop/ror/sullivanportfolio/app/assets/images/scs_logo.jpg"):
+  
+Started GET "/" for ::1 at 2022-08-06 21:12:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 116)
+  Rendered home/_background.html.erb (Duration: 8.3ms | Allocations: 611)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 382)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 4397)
+Completed 200 OK in 24ms (Views: 22.7ms | Allocations: 5427)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:12:59 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 177)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 1.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 4459)
+Completed 200 OK in 19ms (Views: 17.7ms | Allocations: 5490)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:13:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 155)
+  Rendered home/_background.html.erb (Duration: 1.4ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.8ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4438)
+Completed 200 OK in 18ms (Views: 16.7ms | Allocations: 5468)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:13:16 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 133)
+  Rendered home/_background.html.erb (Duration: 2.0ms | Allocations: 608)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 4404)
+Completed 200 OK in 16ms (Views: 15.3ms | Allocations: 5434)
+
+
+Started GET "/" for ::1 at 2022-08-06 21:13:21 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+  Rendered home/_background.html.erb (Duration: 1.0ms | Allocations: 606)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 377)
+  Rendered home/_footer.html.erb (Duration: 0.3ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 4388)
+Completed 200 OK in 11ms (Views: 9.8ms | Allocations: 5418)
+
+

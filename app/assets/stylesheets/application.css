@@ -56,12 +56,17 @@ button {
     padding-top: 18px;
 }
 
+#button_id {}
+
+#whole-header {}
+
 .header-object1 {
     font-size: 24px;
 }
 .header-object2 {
 
 }
+
 .header-object3 {
     font-size: 24px;
     margin-bottom: 0px;
@@ -76,12 +81,11 @@ button {
     opacity: 85%;
     margin-top: 10px;
     transition: 500ms;
-    width: 50%;
+    width: 15%;
+    height: auto;
 }
 .header-logo-image:hover {
     transform: scalex(-1)
-}
-.header-logo-image:active {
 }
 
 #whole-body-content {
@@ -91,9 +95,7 @@ button {
 
 }
 
-.first-body {
-
-}
+.first-body {}
 
 #whole-second-body {
     border-color: rgba(0, 255, 0, 0.54);

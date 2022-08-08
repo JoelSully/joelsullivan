@@ -60,7 +60,7 @@ button {
     font-size: 24px;
 }
 .header-object2 {
-    
+
 }
 .header-object3 {
     font-size: 24px;
@@ -71,11 +71,12 @@ button {
     padding-right: 8px;
 
 }
-.header-logo-image {
+#header-logo-image {
     border-radius: 50px;
     opacity: 85%;
     margin-top: 10px;
     transition: 500ms;
+    width: 50%;
 }
 .header-logo-image:hover {
     transform: scalex(-1)
@@ -104,7 +105,14 @@ button {
     margin-right: 300px;
     margin-left: 50px;
     box-shadow: 5px 10px 8px 10px #00941e;
+}
 
+#body-image {
+    width: 400px; 
+    padding-top: 40px; 
+    padding-right: 40px; 
+    padding-left: 40px; 
+    padding-bottom: 40px;
 }
 
 #second-body-verbiage {

@@ -79,7 +79,7 @@ button {
 #header-logo-image {
     border-radius: 50px;
     opacity: 85%;
-    margin-top: 10px;
+    margin-top: 1%;
     transition: 500ms;
     width: 15%;
     height: auto;
@@ -102,10 +102,9 @@ button {
     border-style: solid;
     border-width: 2px;
     border-radius: 25px;
-    right: 50px;
-    margin-top: 100px;
-    margin-right: 300px;
-    margin-left: 50px;
+    margin-top: 8%;
+    margin-right: 20%;
+    margin-left: 8%;
     box-shadow: 5px 10px 8px 10px #00941e;
 }
 
@@ -130,11 +129,10 @@ button {
     border-style: solid;
     border-width: 2px;
     border-radius: 25px;
-    right: 50px;
-    margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 300px;
-    margin-bottom: 50px;
+    margin-top: 8%;
+    margin-right: 8%;
+    margin-left: 20%;
+    margin-bottom: 8%;
     box-shadow: 5px 10px 8px 10px #8f1111;
 }
 

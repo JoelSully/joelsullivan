@@ -19,8 +19,9 @@
 @font-face {
     font-family: 'LobsterTwo';
     src: url('LobsterTwo-Regular.ttf');
+    font-family: 'Rubik Moonrocks';
+    src: url('RubikMoonrocks-Regular.ttf')
 }
-
  #body {
     overflow: scroll;
     width: 100%;
@@ -35,7 +36,6 @@
     padding-bottom: 25px;
     z-index: -1;
 }
-
 .background-pic {
     opacity: 35%;
     z-index: -1;
@@ -44,7 +44,6 @@
     z-index: -1;
     position: absolute;
 }
-
 button {
     color: white;
     background-color: black;
@@ -55,18 +54,12 @@ button {
     padding-left: 18px;
     padding-top: 18px;
 }
-
-#button_id {}
-
-#whole-header {}
-
 .header-object1 {
     font-size: 24px;
 }
 .header-object2 {
 
 }
-
 .header-object3 {
     font-size: 24px;
     margin-bottom: 0px;
@@ -87,84 +80,85 @@ button {
 .header-logo-image:hover {
     transform: scalex(-1)
 }
-
 #whole-body-content {
-    padding-top: 70px;
+    margin-top: 15%;
     font-size: 52px;
     z-index: 100;
 
 }
-
-.first-body {}
-
 #whole-second-body {
-    border-color: rgba(0, 255, 0, 0.54);
+    border-color: rgba(255, 255, 255, 0.746);
     border-style: solid;
     border-width: 2px;
     border-radius: 25px;
-    margin-top: 8%;
-    margin-right: 20%;
+    margin-top: 20%;
     margin-left: 8%;
-    box-shadow: 5px 10px 8px 10px #00941e;
+    box-shadow: 5px 8px 8px 8px #ffffff46;
+    width: 80%;
+    height: 400px;
+    background-image: url('aptos_view.jpg');
+    background-size: cover;
+    opacity: 90%;
+    transition: 721ms;
 }
+#whole-second-body:hover {
+    opacity: 100%;
+    box-shadow: 5px 8px 8px 8px #4cc0ffa9;
 
-#body-image {
-    width: 400px; 
-    padding-top: 40px; 
-    padding-right: 40px; 
-    padding-left: 40px; 
-    padding-bottom: 40px;
 }
-
 #second-body-verbiage {
-    padding-left: 90px;
-    padding-top: 130px;
+    padding-left: 2%;
+    padding-top: 2%;
 }
-
-#second-body-image {
+#body-image {
+    max-width: 75%; 
+    padding-top: 4%; 
+    padding-right: 4%; 
+    padding-left: 4%; 
+    padding-bottom: 4%;
 }
-
 #whole-third-body {
-    border-color: red;
+    border-color: rgba(255, 255, 255, 0.788);
     border-style: solid;
     border-width: 2px;
     border-radius: 25px;
-    margin-top: 8%;
-    margin-right: 8%;
-    margin-left: 20%;
-    margin-bottom: 8%;
-    box-shadow: 5px 10px 8px 10px #8f1111;
+    margin-top: 10%;
+    margin-left: 8%;
+    box-shadow: 5px 8px 8px 8px #ffffff46;
+    width: 80%;
+    height: 400px;
+    background-image: url('body-3-image.png');
+    background-size: cover;
+    opacity: 90%;
+    transition: 721ms;
+    margin-bottom: 4%;
 }
+#whole-third-body:hover {
+    opacity: 100%;
+    box-shadow: 5px 8px 8px 8px hsla(124, 100%, 61%, 0.537);
 
+}
 #third-body-verbiage {
-    padding-right: 200px;
-    padding-top: 130px;
+    padding-left: 10%;
+    padding-top: 13%;
 }
-
-#third-body-image {
-}
-
-
-
 .footer-info {
     color: white;
     opacity: 60%;
     font-size: 15px;
-    bottom: 10px;
+    bottom: 1%;
 
 }
-
 .footer-objects {
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
     color: white;
 }
-
 #footer {
     position: static;
     bottom:0;
     width:100%;
-    height:60px;   /* Height of the footer */
+    height:6%;   /* Height of the footer */
 }

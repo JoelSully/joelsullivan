@@ -12,8 +12,9 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
-gem "mini_magick"
-
+gem 'animate.css-rails'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 
 
 group :development, :test do

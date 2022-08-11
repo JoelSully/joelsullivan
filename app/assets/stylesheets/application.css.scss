@@ -45,7 +45,7 @@
     src: url('LobsterTwo-Regular.ttf');
 }
 
- #body {
+#body {
     overflow: scroll;
     width: flex;
     height: 100%;
@@ -55,18 +55,15 @@
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-bottom: 25px;
     z-index: -1;
 }
 button {
     color: white;
     background-color: black;
     text-align: center;
-    margin-right: 6px;
-    padding-right: 18px;
-    padding-bottom: 18px;
-    padding-left: 18px;
-    padding-top: 18px;
+    padding: 10px;
+    opacity: 80%;
+    box-shadow: 5px 5px 5px 5px lightgray;
 }
 
 #header-logo-image {
@@ -80,6 +77,8 @@ button {
 .header-logo-image:hover {
     transform: scalex(-1)
 }
+
+
 #whole-body-content {
     margin-top: 15%;
     font-size: 52px;
@@ -88,6 +87,7 @@ button {
 }
 .first-body-content {
     font-size: 72px;
+    width: auto;
 }
 
 .J {
@@ -208,9 +208,4 @@ button {
     bottom:0;
     width:100%;
     height:6%;   /* Height of the footer */
-}
-.word {
-  margin: auto;
-  color: white;
-  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }

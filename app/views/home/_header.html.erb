@@ -1,21 +1,26 @@
-<div class="d-block p-2", id: "whole-header">
-  <div class="d-flex flex-row justify-content-between mb-3">
+<div class="d-block p-2">
+  <div class="d-flex flex-row justify-content-around mb-3 whole-header">
     
     
-    <div class="p-2 text-nowrap", id: "header-object1">
+    <div class="p-2 text-nowrap">
       <div class="p2">
-      <%= link_to "<button>Joel Sullivan</button>".html_safe, root_path, :id => "button_id", :class => "button_class" %>
+      <%= link_to "<button>Joel Sullivan</button>".html_safe, root_path, :class => "header-object1" %>
       </div>
     </div>
 
-    <div class="p-2 text-nowrap", id: "header-object1">
-      <div class='d-flex text-nowrap', id: "header-object1">
-        <div class="p2 text-nowrap" style="transform: translateX(-20px);">
-          <%= link_to "<button>About Me</button>".html_safe, home_about_path, :id => "button_id", :class => "button_class" %>
+    <div class="p-2 text-nowrap">
+      <div class='d-flex text-nowrap'>
+        <div class="p2 text-nowrap header-object1">
+          <%= link_to "<button>About Me</button>".html_safe, home_about_path %>
         </div>
+      </div>
+    </div>
 
-        <div class="p2 text-nowrap">
-        <%= link_to "<button>Recent Projects</button>".html_safe, root_path, :id => "button_id", :class => "button_class" %>
+
+    <div class="p-2 text-nowrap">
+      <div class='d-flex text-nowrap'>
+        <div class="p2 text-nowrap header-object1">
+          <%= link_to "<button>Recent Projects</button>".html_safe, root_path %>
         </div>
       </div>
     </div>

@@ -1,35 +1,37 @@
 <div class="d-block p-2">
-  <div class="d-flex flex-row justify-content-around mb-3 whole-header">
+  <div class="d-flex flex-row flex-wrap justify-content-around mb-3 whole-header">
     
-    
-    <div class="p-2 text-nowrap">
-      <div class="p2">
-        <button href="<%= root_path %>" class="header-object1">
-          Joel Sullivan
-        </button>
-      </div>
-    </div>
-
-    <div class="p-2 text-nowrap">
-      <div class='d-flex text-nowrap'>
-        <div class="p2 text-nowrap">
-          <button href="<%= home_about_path %>" class="header-object1">
-            About
+    <a href="<%= root_path %>">
+      <div class="p-2 text-nowrap">
+        <div class="p2">
+          <button class="header-object1">
+            Joel Sullivan
           </button>
         </div>
       </div>
-    </div>
-
-
-    <div class="p-2 text-nowrap">
-      <div class='d-flex text-nowrap'>
-        <div class="p2 text-nowrap">
-          <button href="<%= home_projects_path %>" class="header-object1">
-            Projects
-          </button>        
+    </a>
+    <a href="<%= home_about_path %>">
+      <div class="p-2 text-nowrap">
+        <div class='d-flex text-nowrap'>
+          <div class="p2 text-nowrap">
+            <button class="header-object1">
+              About
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </a>
+    <a href="<%= home_projects_path %>">
+      <div class="p-2 text-nowrap">
+        <div class='d-flex text-nowrap'>
+          <div class="p2 text-nowrap">
+            <button class="header-object1">
+              Projects
+            </button>        
+          </div>
+        </div>
+      </div>
+    </a>
 
 
   </div>

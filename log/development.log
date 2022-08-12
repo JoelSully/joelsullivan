@@ -35240,3 +35240,220 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 21ms (Views: 19.0ms | Allocations: 6164)
 
 
+Started GET "/" for ::1 at 2022-08-11 22:48:00 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 950)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 269)
+  Rendered home/_background.html.erb (Duration: 0.1ms | Allocations: 101)
+  Rendered home/_footer.html.erb (Duration: 0.2ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 81.8ms | Allocations: 65140)
+Completed 200 OK in 87ms (Views: 83.5ms | ActiveRecord: 0.0ms | Allocations: 70506)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:48:00 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3567)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3886)
+
+
+Started GET "/home/about" for ::1 at 2022-08-11 22:48:10 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.6ms | Allocations: 669)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 4176)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 4560)
+
+
+Started GET "/home/about" for ::1 at 2022-08-11 22:48:44 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3582)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3904)
+
+
+Started GET "/home/about" for ::1 at 2022-08-11 22:50:30 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.6ms | Allocations: 670)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 289)
+  Rendered home/_background.html.erb (Duration: 0.5ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.9ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 5187)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 6224)
+
+
+Started GET "/home/about" for ::1 at 2022-08-11 22:50:38 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.7ms | Allocations: 670)
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 291)
+  Rendered home/_background.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.3ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 5239)
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.0ms | Allocations: 6278)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:50:44 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 616)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4114)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 4493)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:50:49 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 49)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3571)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3892)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:51:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 631)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 287)
+  Rendered home/_background.html.erb (Duration: 0.6ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 5147)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 6179)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:52:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 631)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 273)
+  Rendered home/_background.html.erb (Duration: 0.4ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 5125)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 6158)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:52:38 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 631)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 271)
+  Rendered home/_background.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.3ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 5133)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 6166)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:52:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 631)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 271)
+  Rendered home/_background.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.3ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 5133)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 6166)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:53:02 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3569)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/home/about" for ::1 at 2022-08-11 22:53:03 -0500
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.1ms | Allocations: 655)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 4159)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4536)
+
+
+Started GET "/home/projects" for ::1 at 2022-08-11 22:53:06 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 2.1ms | Allocations: 653)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 4143)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4465)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:53:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3567)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3888)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:54:46 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 73)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3578)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 3893)
+
+
+Started GET "/" for ::1 at 2022-08-11 22:55:58 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 631)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 272)
+  Rendered home/_background.html.erb (Duration: 0.4ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 1.3ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 5123)
+Completed 200 OK in 18ms (Views: 16.1ms | Allocations: 6152)
+
+

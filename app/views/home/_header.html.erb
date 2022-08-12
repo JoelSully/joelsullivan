@@ -4,14 +4,18 @@
     
     <div class="p-2 text-nowrap">
       <div class="p2">
-      <%= link_to "<button>Joel Sullivan</button>".html_safe, root_path, :class => "header-object1" %>
+        <button href="<%= root_path %>" class="header-object1">
+          Joel Sullivan
+        </button>
       </div>
     </div>
 
     <div class="p-2 text-nowrap">
       <div class='d-flex text-nowrap'>
-        <div class="p2 text-nowrap header-object1">
-          <%= link_to "<button>About Me</button>".html_safe, home_about_path %>
+        <div class="p2 text-nowrap">
+          <button href="<%= home_about_path %>" class="header-object1">
+            About
+          </button>
         </div>
       </div>
     </div>
@@ -19,8 +23,10 @@
 
     <div class="p-2 text-nowrap">
       <div class='d-flex text-nowrap'>
-        <div class="p2 text-nowrap header-object1">
-          <%= link_to "<button>Recent Projects</button>".html_safe, root_path %>
+        <div class="p2 text-nowrap">
+          <button href="<%= home_projects_path %>" class="header-object1">
+            Projects
+          </button>        
         </div>
       </div>
     </div>

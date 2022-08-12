@@ -34410,3 +34410,650 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 6209)
 
 
+Started GET "/" for ::1 at 2022-08-11 21:11:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 976)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 274)
+  Rendered home/_background.html.erb (Duration: 0.2ms | Allocations: 101)
+  Rendered home/_footer.html.erb (Duration: 0.3ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 604.4ms | Allocations: 113268)
+Completed 200 OK in 610ms (Views: 606.2ms | ActiveRecord: 0.0ms | Allocations: 118633)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:30:36 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 6027)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 6108)
+Completed 500 Internal Server Error in 25ms (Allocations: 7127)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div id="whole-body-content">
+  <div class="d-flex flex-column">
+
+    <div id: "first-body-content">
+      <div class="p2 d-flex flex-row justify-content-center">
+        <div class="p2" style="padding-left: 22%; width: 100%; height: auto; display: inline-flex;">
+          <% if display >= 1265px do
+            <h1 style="display:inline-flex; font-size: 12vw;" class="J">
+            <%= 
+              'J'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="o">
+              <%=
+                'o'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="e">
+              <%=
+                'e'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="l0">
+              <%=
+                'l'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class=" ">
+              <%=
+                ' '
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="S">
+              <%=
+                'S'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="u">
+              <%=
+                'u'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="l1">
+              <%=
+                'l'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="l2">
+              <%=
+                'l'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="i">
+              <%=
+                'i'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="v">
+              <%=
+                'v'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="a">
+              <%=
+                'a'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="n">
+              <%=
+                'n'
+            %>
+            </h1>
+          end
+        </div>
+      </div>
+    </div>
+    </br>
+    </br>
+    </br>
+      <a href="<%= home_about_path %>">
+        <button id="whole-second-body">
+          <div class="p2 d-flex flex-row justify-content-between">
+            <div class="p2" id="third-body-verbiage">
+              My Life:
+              <h2>West to East to Midwest!</h2>
+            </div>
+          </div>
+        </button>
+      </a>
+    </div>
+    </br>
+    <div>
+      <a href="<%= home_projects_path %>">
+        <button id="whole-third-body">
+          <div class="p2 d-flex flex-row justify-content-between">
+            <div class="p2" id="second-body-verbiage">
+              <h1>My Career: </br>
+              Beginnings in </br>
+              the Bay</h1>
+            </div>
+          </div>
+        </button>
+      </a>
+    </div>
+    </br>
+  </div>
+</div>
+):
+1:    <div id="whole-body-content">
+2:      <div class="d-flex flex-column">
+3:    
+4:        <div id: "first-body-content">
+5:          <div class="p2 d-flex flex-row justify-content-center">
+6:            <div class="p2" style="padding-left: 22%; width: 100%; height: auto; display: inline-flex;">
+7:              <% if display >= 1265px do
+8:                <h1 style="display:inline-flex; font-size: 12vw;" class="J">
+9:                <%= 
+10:                  'J'
+11:                %>
+12:                </h1>
+13:                <h1 style="display:inline-flex; font-size: 12vw;" class="o">
+14:                  <%=
+15:                    'o'
+16:                %>
+17:                </h1>
+18:                <h1 style="display:inline-flex; font-size: 12vw;" class="e">
+19:                  <%=
+20:                    'e'
+21:                %>
+22:                </h1>
+23:                <h1 style="display:inline-flex; font-size: 12vw;" class="l0">
+24:                  <%=
+25:                    'l'
+26:                %>
+27:                </h1>
+28:                <h1 style="display:inline-flex; font-size: 12vw;" class=" ">
+29:                  <%=
+30:                    ' '
+31:                %>
+32:                </h1>
+33:                <h1 style="display:inline-flex; font-size: 12vw;" class="S">
+34:                  <%=
+35:                    'S'
+36:                %>
+37:                </h1>
+38:                <h1 style="display:inline-flex; font-size: 12vw;" class="u">
+39:                  <%=
+40:                    'u'
+41:                %>
+42:                </h1>
+43:                <h1 style="display:inline-flex; font-size: 12vw;" class="l1">
+44:                  <%=
+45:                    'l'
+46:                %>
+47:                </h1>
+48:                <h1 style="display:inline-flex; font-size: 12vw;" class="l2">
+49:                  <%=
+50:                    'l'
+51:                %>
+52:                </h1>
+53:                <h1 style="display:inline-flex; font-size: 12vw;" class="i">
+54:                  <%=
+55:                    'i'
+56:                %>
+57:                </h1>
+58:                <h1 style="display:inline-flex; font-size: 12vw;" class="v">
+59:                  <%=
+60:                    'v'
+61:                %>
+62:                </h1>
+63:                <h1 style="display:inline-flex; font-size: 12vw;" class="a">
+64:                  <%=
+65:                    'a'
+66:                %>
+67:                </h1>
+68:                <h1 style="display:inline-flex; font-size: 12vw;" class="n">
+69:                  <%=
+70:                    'n'
+71:                %>
+72:                </h1>
+73:              end
+74:            </div>
+75:          </div>
+76:        </div>
+77:        </br>
+78:        </br>
+79:        </br>
+80:          <a href="<%= home_about_path %>">
+81:            <button id="whole-second-body">
+82:              <div class="p2 d-flex flex-row justify-content-between">
+83:                <div class="p2" id="third-body-verbiage">
+84:                  My Life:
+85:                  <h2>West to East to Midwest!</h2>
+86:                </div>
+87:              </div>
+88:            </button>
+89:          </a>
+90:        </div>
+91:        </br>
+92:        <div>
+93:          <a href="<%= home_projects_path %>">
+94:            <button id="whole-third-body">
+95:              <div class="p2 d-flex flex-row justify-content-between">
+96:                <div class="p2" id="second-body-verbiage">
+97:                  <h1>My Career: </br>
+98:                  Beginnings in </br>
+99:                  the Bay</h1>
+100:                </div>
+101:              </div>
+102:            </button>
+103:          </a>
+104:        </div>
+105:        </br>
+106:      </div>
+107:    </div>
+  
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+Started GET "/" for ::1 at 2022-08-11 21:31:02 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1465)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1546)
+Completed 500 Internal Server Error in 7ms (Allocations: 2548)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div id="whole-body-content">
+  <div class="d-flex flex-column">
+
+    <div id: "first-body-content">
+      <div class="p2 d-flex flex-row justify-content-center">
+        <div class="p2" style="padding-left: 22%; width: 100%; height: auto; display: inline-flex;">
+          <% if display >= 1265px do
+            <h1 style="display:inline-flex; font-size: 12vw;" class="J">
+            <%= 
+              'J'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="o">
+              <%=
+                'o'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="e">
+              <%=
+                'e'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="l0">
+              <%=
+                'l'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class=" ">
+              <%=
+                ' '
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="S">
+              <%=
+                'S'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="u">
+              <%=
+                'u'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="l1">
+              <%=
+                'l'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="l2">
+              <%=
+                'l'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="i">
+              <%=
+                'i'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="v">
+              <%=
+                'v'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="a">
+              <%=
+                'a'
+            %>
+            </h1>
+            <h1 style="display:inline-flex; font-size: 12vw;" class="n">
+              <%=
+                'n'
+            %>
+            </h1>
+          end
+          %>
+        </div>
+      </div>
+    </div>
+    </br>
+    </br>
+    </br>
+      <a href="<%= home_about_path %>">
+        <button id="whole-second-body">
+          <div class="p2 d-flex flex-row justify-content-between">
+            <div class="p2" id="third-body-verbiage">
+              My Life:
+              <h2>West to East to Midwest!</h2>
+            </div>
+          </div>
+        </button>
+      </a>
+    </div>
+    </br>
+    <div>
+      <a href="<%= home_projects_path %>">
+        <button id="whole-third-body">
+          <div class="p2 d-flex flex-row justify-content-between">
+            <div class="p2" id="second-body-verbiage">
+              <h1>My Career: </br>
+              Beginnings in </br>
+              the Bay</h1>
+            </div>
+          </div>
+        </button>
+      </a>
+    </div>
+    </br>
+  </div>
+</div>
+):
+1:    <div id="whole-body-content">
+2:      <div class="d-flex flex-column">
+3:    
+4:        <div id: "first-body-content">
+5:          <div class="p2 d-flex flex-row justify-content-center">
+6:            <div class="p2" style="padding-left: 22%; width: 100%; height: auto; display: inline-flex;">
+7:              <% if display >= 1265px do
+8:                <h1 style="display:inline-flex; font-size: 12vw;" class="J">
+9:                <%= 
+10:                  'J'
+11:                %>
+12:                </h1>
+13:                <h1 style="display:inline-flex; font-size: 12vw;" class="o">
+14:                  <%=
+15:                    'o'
+16:                %>
+17:                </h1>
+18:                <h1 style="display:inline-flex; font-size: 12vw;" class="e">
+19:                  <%=
+20:                    'e'
+21:                %>
+22:                </h1>
+23:                <h1 style="display:inline-flex; font-size: 12vw;" class="l0">
+24:                  <%=
+25:                    'l'
+26:                %>
+27:                </h1>
+28:                <h1 style="display:inline-flex; font-size: 12vw;" class=" ">
+29:                  <%=
+30:                    ' '
+31:                %>
+32:                </h1>
+33:                <h1 style="display:inline-flex; font-size: 12vw;" class="S">
+34:                  <%=
+35:                    'S'
+36:                %>
+37:                </h1>
+38:                <h1 style="display:inline-flex; font-size: 12vw;" class="u">
+39:                  <%=
+40:                    'u'
+41:                %>
+42:                </h1>
+43:                <h1 style="display:inline-flex; font-size: 12vw;" class="l1">
+44:                  <%=
+45:                    'l'
+46:                %>
+47:                </h1>
+48:                <h1 style="display:inline-flex; font-size: 12vw;" class="l2">
+49:                  <%=
+50:                    'l'
+51:                %>
+52:                </h1>
+53:                <h1 style="display:inline-flex; font-size: 12vw;" class="i">
+54:                  <%=
+55:                    'i'
+56:                %>
+57:                </h1>
+58:                <h1 style="display:inline-flex; font-size: 12vw;" class="v">
+59:                  <%=
+60:                    'v'
+61:                %>
+62:                </h1>
+63:                <h1 style="display:inline-flex; font-size: 12vw;" class="a">
+64:                  <%=
+65:                    'a'
+66:                %>
+67:                </h1>
+68:                <h1 style="display:inline-flex; font-size: 12vw;" class="n">
+69:                  <%=
+70:                    'n'
+71:                %>
+72:                </h1>
+73:              end
+74:              %>
+75:            </div>
+76:          </div>
+77:        </div>
+78:        </br>
+79:        </br>
+80:        </br>
+81:          <a href="<%= home_about_path %>">
+82:            <button id="whole-second-body">
+83:              <div class="p2 d-flex flex-row justify-content-between">
+84:                <div class="p2" id="third-body-verbiage">
+85:                  My Life:
+86:                  <h2>West to East to Midwest!</h2>
+87:                </div>
+88:              </div>
+89:            </button>
+90:          </a>
+91:        </div>
+92:        </br>
+93:        <div>
+94:          <a href="<%= home_projects_path %>">
+95:            <button id="whole-third-body">
+96:              <div class="p2 d-flex flex-row justify-content-between">
+97:                <div class="p2" id="second-body-verbiage">
+98:                  <h1>My Career: </br>
+99:                  Beginnings in </br>
+100:                  the Bay</h1>
+101:                </div>
+102:              </div>
+103:            </button>
+104:          </a>
+105:        </div>
+106:        </br>
+107:      </div>
+108:    </div>
+  
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting `then' or ';' or '\n'
+app/views/home/index.html.erb:8: syntax error, unexpected `class', expecting `end'
+app/views/home/index.html.erb:9: syntax error, unexpected '<'
+Started GET "/" for ::1 at 2022-08-11 21:32:11 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 669)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 263)
+  Rendered home/_background.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.3ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 371.7ms | Allocations: 14069)
+Completed 200 OK in 379ms (Views: 376.9ms | Allocations: 15099)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:36:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 75)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3569)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 3886)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:37:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 657)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 263)
+  Rendered home/_background.html.erb (Duration: 0.4ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 5142)
+Completed 200 OK in 22ms (Views: 19.1ms | Allocations: 6176)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:37:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 657)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 263)
+  Rendered home/_background.html.erb (Duration: 1.0ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 5137)
+Completed 200 OK in 20ms (Views: 18.6ms | Allocations: 6167)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:38:34 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 657)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 263)
+  Rendered home/_background.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.3ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 5135)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 6165)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:39:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 315.2ms | Allocations: 12458)
+Completed 200 OK in 316ms (Views: 315.8ms | Allocations: 12774)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:39:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 660)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 263)
+  Rendered home/_background.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.6ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 5773)
+Completed 200 OK in 24ms (Views: 22.0ms | Allocations: 6807)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:43:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 657)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 263)
+  Rendered home/_background.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.4ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 5147)
+Completed 200 OK in 25ms (Views: 20.5ms | Allocations: 6177)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:48:51 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 663)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 264)
+  Rendered home/_background.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered home/_footer.html.erb (Duration: 0.5ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 5146)
+Completed 200 OK in 22ms (Views: 20.5ms | Allocations: 6177)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:50:31 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 75)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 320.4ms | Allocations: 12451)
+Completed 200 OK in 323ms (Views: 321.3ms | Allocations: 12767)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:50:36 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 75)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3576)
+Completed 200 OK in 13ms (Views: 11.4ms | Allocations: 3891)
+
+
+Started GET "/" for ::1 at 2022-08-11 21:50:40 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 41)
+  Rendered home/_background.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered home/_footer.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3565)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 3880)
+
+

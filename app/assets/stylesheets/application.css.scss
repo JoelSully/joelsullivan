@@ -101,7 +101,7 @@ button {
     font-family: 'LobsterTwo';
 }
 .first-body-content {
-    font-size: 500%;
+    overflow-wrap: break-word;
 }
 
 .J {
@@ -115,7 +115,6 @@ button {
 }
 .l0 {
     @include slide-down2(721ms, 225ms);
-    padding-right: 2%;
 }
 .space {
     @include slide-down2(721ms, 300ms);

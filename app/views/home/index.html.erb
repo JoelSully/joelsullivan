@@ -1,104 +1,108 @@
-<div id="whole-body-content">
-  <div class="d-flex flex-column">
+<div class="row whole-body">
 
-    <div id: "first-body-content">
-      <div class="p2 d-flex flex-row flex-wrap justify-content-center">
-        <div class="p2 justify-content-center" style="width: auto; height: auto; display: inline-flex;">
-          <div>
-            <h1 style="display:inline-flex; font-size: 200%;" class="J">
-            <%= 
-              'J'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="o">
-              <%=
-                'o'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="e">
-              <%=
-                'e'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="l0">
-              <%=
-                'l'
-            %>
-            </h1>
+
+  <div class="d-inline position-fixed body-left"> 
+    <div class="left-body-content">
+      <div class="container left-body-main-text">
+        <div class="d-block left-body-main-text-first text-center">
+          <div class="left-body-main-text-first-text">
+            Hi! My name is
           </div>
-          <div>
-            <h1 style="display:inline-flex; font-size: 200%;" class="S">
-              <%=
-                'S'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="u">
-              <%=
-                'u'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="l1">
-              <%=
-                'l'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="l2">
-              <%=
-                'l'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="i">
-              <%=
-                'i'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="v">
-              <%=
-                'v'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="a">
-              <%=
-                'a'
-            %>
-            </h1>
-            <h1 style="display:inline-flex; font-size: 200%;" class="n">
-              <%=
-                'n'
-            %>
-            </h1>
+        </div>
+        <div class="d-block left-body-main-text-second text-center">Joel Sullivan</div>
+        <div class="d-block left-body-main-text-third text-center">UI, UX, Full Stack</div>
+      </div>
+      <div class="d-flex left-body-lower-content">
+        <div class="d-inline left-body-lower-content1">
+          <div class="d-flex left-body-lower-content-picture">
+            <%= image_tag 'mimoji.png', :class => "left-body-lower-content-picture1" %>
+          </div>
+          <div class="d-flex justify-content-center left-body-lower-content-box">
+            <div class="d-flex left-body-lower-content-verbiage">
+              I would love to connect!
+            </div>
+            <button class="btn left-body-lower-content-button">Contact</button>
           </div>
         </div>
       </div>
     </div>
-    </br>
-    </br>
-    </br>
-      <a href="<%= home_about_path %>">
-        <button id="whole-second-body">
-          <div class="p2 d-flex flex-row justify-content-between">
-            <div class="p2" id="third-body-verbiage">
-              My Life:
-              <h2>West to East to Midwest!</h2>
+  </div>
+
+
+
+  <div class="d-block body-right">
+    <div class="d-block right-body-content">
+        <div class="d-block cheveron-container">
+          <i class="d-inline chevron"></i>
+        </div>
+
+
+        <div class="d-block right-body-content-about">
+          <div class="d-block right-body-content-about-main">
+          "I love everything that can be discovered through the creative process"
+          </div>
+
+          <div class="d-block right-body-content-about-personal">
+            Personal: </br>
+            I grew up in a small beach town - Santa Cruz, California. My retail career has given me the chance to live in several different states, eventually landing here in Minnesota (or Minne-sohhh-ta as my father-in-law would say)
+          </div>
+
+          <div class="d-block right-body-content-about-technical">
+            Technical: </br>
+            Currently, I am developing web apps utilizing Ruby on Rails, Wordpress, HTML CSS SCSS JS
+
+          </div>
+        </div>
+
+        <div class="d-block cheveron-container">
+          <i class="d-inline chevron"></i>
+        </div>
+
+
+        <div class="right-body-content-grid">
+
+          <div class="row pictures-row">
+            <div class="col col-container">
+              <div class="container col-container-inner">
+                <%= image_tag "aptos-view.jpg", :class => "img-fluid col-container-inner-picture" %>
+              </div>
+            </div>
+
+            <div class="col col-container">
+              <div class="container col-container-inner">
+                <%= image_tag "bocce-ellie.png", :class => "img-fluid col-container-inner-picture" %>
+              </div>
             </div>
           </div>
-        </button>
-      </a>
-    </div>
-    </br>
-    <div>
-      <a href="<%= home_projects_path %>">
-        <button id="whole-third-body">
-          <div class="p2 d-flex flex-row justify-content-between">
-            <div class="p2" id="second-body-verbiage">
-              <h1>My Career: </br>
-              Beginnings in </br>
-              the Bay</h1>
+
+          <div class="row pictures-row">
+            <div class="col col-container">
+              <div class="container col-container-inner">
+                <%= image_tag "joel-jumping.jpg", :class => "img-fluid col-container-inner-picture" %>
+              </div>
+            </div>
+
+            <div class="col col-container">
+              <div class="container col-container-inner">
+                <%= image_tag "wedding-pic.jpg", :class => "img-fluid col-container-inner-picture" %>
+              </div>
             </div>
           </div>
-        </button>
-      </a>
+
+          <div class="row pictures-row">
+            <div class="col col-container">
+              <div class="container col-container-inner">
+                <%= image_tag "panda-pic.jpg", :class => "img-fluid col-container-inner-picture" %>
+              </div>
+            </div>
+            <div class="col col-container">
+              <div class="container col-container-inner">
+                <%= image_tag "code-pic.png", :class => "img-fluid col-container-inner-picture" %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </br>
   </div>
 </div>

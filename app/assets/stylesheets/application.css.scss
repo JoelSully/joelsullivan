@@ -82,6 +82,7 @@ html, body {
       padding-left: 0px;
       height: 100vh;
       width: 50%;
+      position: fixed;
 
       .left-body-content {
         margin-top: 20vh;
@@ -279,3 +280,17 @@ html, body {
     }
   }
 }
+
+@media (max-device-width: 900px) {
+    .body-left {
+      width: 100%;
+      position: relative;
+      
+    }
+
+    .body-right {
+      width: 0%;
+      position: static;
+
+    }
+  }

@@ -176,7 +176,7 @@ $mobilelargefont: 12vw;
           font-size: 5vw;
 
           .cheveron-container {
-            margin-left: 50vw;
+            margin-left: 46vw;
 
 
             .chevron {
@@ -211,25 +211,27 @@ $mobilelargefont: 12vw;
             .right-body-content-about-main {
               font-size: $mobilemediumfont;
               color: $mediumfontcolor;
-              line-height: 7vh;
-              padding-left: 5vw;
-              margin-right: 5vw;
+              line-height: 6.5vh;
+              padding-left: 16vw;
+              margin-right: 10vw;
+              margin-bottom: 6vh;
             }
             .right-body-content-about-personal {
               padding-top: 2.5vw;
               font-size: $mobilesmallfont;
-              line-height: 4vw;
-              padding-left: 18vw;
+              line-height: 5vw;
+              padding-left: 30vw;
               margin-right: 2.5vw;
               font-weight: bold;
             }
             .right-body-content-about-technical {
               padding-top: 2.5vw;
               font-size: $mobilesmallfont;
-              padding-left: 18vw;
+              padding-left: 30vw;
               margin-right: 2.5vw;
-              line-height: 4vw;
+              line-height: 5vw;
               font-weight: bold;
+              margin-bottom: 6vh;
             }
           }
 

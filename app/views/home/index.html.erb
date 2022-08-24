@@ -1,104 +1,71 @@
-<div class="row whole-body">
-
-
-  <div class="d-inline body-left"> 
-    <div class="left-body-content">
-      <div class="container left-body-main-text">
-        <div class="d-block left-body-main-text-first text-center">
-          <div class="left-body-main-text-first-text">
-            Hi! My name is
-          </div>
-        </div>
-        <div class="d-block left-body-main-text-second text-center">Joel Sullivan</div>
-        <div class="d-block left-body-main-text-third text-center">UI, UX, Full Stack</div>
+<div class="d-block body-right">
+  <div class="d-block right-body-content">
+      <div class="d-block cheveron-container">
+        <i class="d-inline chevron"></i>
       </div>
-      <div class="d-flex left-body-lower-content">
-        <div class="d-inline left-body-lower-content1">
-          <div class="d-flex left-body-lower-content-picture">
-            <%= image_tag 'mimoji.png', :class => "left-body-lower-content-picture1" %>
-          </div>
-          <div class="d-flex justify-content-center left-body-lower-content-box">
-            <div class="d-flex left-body-lower-content-verbiage">
-              I would love to connect!
-            </div>
-            <button class="btn left-body-lower-content-button">Contact</button>
-          </div>
+
+
+      <div class="d-block right-body-content-about">
+        <div class="d-block right-body-content-about-main">
+        "I love everything that can be discovered through the creative process"
+        </div>
+
+        <div class="d-block right-body-content-about-personal">
+          Personal: </br>
+          I grew up in a small beach town - Santa Cruz, California. My retail career has given me the chance to live in several different states, eventually landing here in Minnesota (or Minne-sohhh-ta as my father-in-law would say)
+        </div>
+
+        <div class="d-block right-body-content-about-technical">
+          Technical: </br>
+          Currently, I am developing web apps utilizing Ruby on Rails, Wordpress, HTML CSS SCSS JS
+
         </div>
       </div>
-    </div>
-  </div>
+
+      <div class="d-block cheveron-container">
+        <i class="d-inline chevron"></i>
+      </div>
 
 
+      <div class="right-body-content-grid">
 
-  <div class="d-block body-right">
-    <div class="d-block right-body-content">
-        <div class="d-block cheveron-container">
-          <i class="d-inline chevron"></i>
-        </div>
-
-
-        <div class="d-block right-body-content-about">
-          <div class="d-block right-body-content-about-main">
-          "I love everything that can be discovered through the creative process"
+        <div class="row pictures-row">
+          <div class="col col-container">
+            <div class="container col-container-inner">
+              <%= link_to image_tag("aptos-view.jpg", :class => "img-fluid col-container-inner-picture"), home_hometown_path %>
+            </div>
           </div>
 
-          <div class="d-block right-body-content-about-personal">
-            Personal: </br>
-            I grew up in a small beach town - Santa Cruz, California. My retail career has given me the chance to live in several different states, eventually landing here in Minnesota (or Minne-sohhh-ta as my father-in-law would say)
-          </div>
-
-          <div class="d-block right-body-content-about-technical">
-            Technical: </br>
-            Currently, I am developing web apps utilizing Ruby on Rails, Wordpress, HTML CSS SCSS JS
-
+          <div class="col col-container">
+            <div class="container col-container-inner">
+              <%= link_to image_tag("bocce-ellie.png", :class => "img-fluid col-container-inner-picture"), home_animals_path %>
+            </div>
           </div>
         </div>
 
-        <div class="d-block cheveron-container">
-          <i class="d-inline chevron"></i>
+        <div class="row pictures-row">
+          <div class="col col-container">
+            <div class="container col-container-inner">
+              <%= link_to image_tag("joel-jumping.jpg", :class => "img-fluid col-container-inner-picture"), home_travel_path %>
+            </div>
+          </div>
+
+          <div class="col col-container">
+            <div class="container col-container-inner">
+              <%= link_to image_tag("wedding-pic.jpg", :class => "img-fluid col-container-inner-picture"), home_wedding_path %>
+            </div>
+          </div>
         </div>
 
-
-        <div class="right-body-content-grid">
-
-          <div class="row pictures-row">
-            <div class="col col-container">
-              <div class="container col-container-inner">
-                <%= image_tag "aptos-view.jpg", :class => "img-fluid col-container-inner-picture" %>
-              </div>
-            </div>
-
-            <div class="col col-container">
-              <div class="container col-container-inner">
-                <%= image_tag "bocce-ellie.png", :class => "img-fluid col-container-inner-picture" %>
-              </div>
+        <div class="row pictures-row">
+          <div class="col col-container">
+            <div class="container col-container-inner">
+              <%= link_to image_tag("panda-pic.jpg", :class => "img-fluid col-container-inner-picture"), home_wifey_path %>
             </div>
           </div>
-
-          <div class="row pictures-row">
-            <div class="col col-container">
-              <div class="container col-container-inner">
-                <%= image_tag "joel-jumping.jpg", :class => "img-fluid col-container-inner-picture" %>
-              </div>
-            </div>
-
-            <div class="col col-container">
-              <div class="container col-container-inner">
-                <%= image_tag "wedding-pic.jpg", :class => "img-fluid col-container-inner-picture" %>
-              </div>
-            </div>
-          </div>
-
-          <div class="row pictures-row">
-            <div class="col col-container">
-              <div class="container col-container-inner">
-                <%= image_tag "panda-pic.jpg", :class => "img-fluid col-container-inner-picture" %>
-              </div>
-            </div>
-            <div class="col col-container">
-              <div class="container col-container-inner">
-                <%= image_tag "code-pic.png", :class => "img-fluid col-container-inner-picture" %>
-              </div>
+          <div class="col col-container">
+            <div class="container col-container-inner">
+              <%= link_to image_tag("code-pic.png", :class => "img-fluid col-container-inner-picture"), home_projects_path %>
             </div>
           </div>
         </div>

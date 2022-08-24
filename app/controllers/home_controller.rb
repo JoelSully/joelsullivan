@@ -2,6 +2,21 @@ class HomeController < ApplicationController
   def index
   end
 
-  def about
+  def projects
+  end
+
+  def animals
+  end
+
+  def hometown
+  end
+
+  def travel
+  end
+
+  def wifey
+  end
+
+  def wedding
   end
 end

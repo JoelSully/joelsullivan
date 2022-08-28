@@ -56613,3 +56613,3050 @@ Processing by HomeController#hometown as HTML
 Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 4112)
 
 
+Started GET "/" for ::1 at 2022-08-23 22:48:55 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 72.9ms | Allocations: 50957)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 719)
+  Rendered layout layouts/application.html.erb (Duration: 82.4ms | Allocations: 68901)
+Completed 200 OK in 88ms (Views: 84.2ms | ActiveRecord: 0.0ms | Allocations: 74257)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-23 22:48:56 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-24 20:01:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 61.7ms | Allocations: 50947)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 719)
+  Rendered layout layouts/application.html.erb (Duration: 69.0ms | Allocations: 68891)
+Completed 200 OK in 75ms (Views: 70.8ms | ActiveRecord: 0.0ms | Allocations: 74245)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 20:01:01 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/travel" for ::1 at 2022-08-24 20:01:04 -0500
+Processing by HomeController#travel as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/travel.html.erb within layouts/application
+  Rendered home/travel.html.erb within layouts/application (Duration: 1.1ms | Allocations: 132)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3789)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 4178)
+
+
+Started GET "/home/wedding" for ::1 at 2022-08-24 20:01:08 -0500
+Processing by HomeController#wedding as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/wedding.html.erb within layouts/application
+  Rendered home/wedding.html.erb within layouts/application (Duration: 0.9ms | Allocations: 132)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3732)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4118)
+
+
+Started GET "/home/projects" for ::1 at 2022-08-24 20:01:25 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 1.0ms | Allocations: 132)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3742)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4128)
+
+
+Started GET "/" for ::1 at 2022-08-24 20:57:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 6878)
+Completed 200 OK in 26ms (Views: 23.8ms | Allocations: 7200)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 20:57:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-24 21:06:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3455)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 186.5ms | Allocations: 88953)
+Completed 200 OK in 191ms (Views: 188.3ms | Allocations: 89274)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 21:06:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-24 21:17:35 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 3917)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 702)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 22166)
+Completed 200 OK in 45ms (Views: 41.0ms | Allocations: 23198)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 21:17:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-24 21:17:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3473)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 6926)
+Completed 200 OK in 15ms (Views: 14.2ms | Allocations: 7246)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 21:17:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-24 21:17:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3473)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 6894)
+Completed 200 OK in 16ms (Views: 14.1ms | Allocations: 7213)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 21:17:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-24 21:18:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 3446)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 528)
+  Rendered layout layouts/application.html.erb (Duration: 36.8ms | Allocations: 25266)
+Completed 200 OK in 39ms (Views: 37.6ms | Allocations: 25586)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 21:18:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-24 21:19:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 3920)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 25753)
+Completed 200 OK in 54ms (Views: 47.8ms | Allocations: 26785)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 21:19:28 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-24 21:20:11 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 3917)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 7871)
+Completed 200 OK in 25ms (Views: 22.5ms | Allocations: 8904)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 21:20:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/wifey" for ::1 at 2022-08-24 21:21:51 -0500
+Processing by HomeController#wifey as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/wifey.html.erb within layouts/application
+  Rendered home/wifey.html.erb within layouts/application (Duration: 1.5ms | Allocations: 132)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 18121)
+Completed 200 OK in 42ms (Views: 29.6ms | Allocations: 18502)
+
+
+Started GET "/home/wifey" for ::1 at 2022-08-24 21:21:51 -0500
+Processing by HomeController#wifey as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/wifey.html.erb within layouts/application
+  Rendered home/wifey.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 3608)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 3927)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-24 21:21:51 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-24 21:21:53 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 6909)
+Completed 200 OK in 19ms (Views: 18.0ms | Allocations: 7230)
+
+
+Started GET "/home/travel" for ::1 at 2022-08-24 21:21:55 -0500
+Processing by HomeController#travel as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/travel.html.erb within layouts/application
+  Rendered home/travel.html.erb within layouts/application (Duration: 1.0ms | Allocations: 134)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3735)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 4112)
+
+
+Started GET "/home/wedding" for ::1 at 2022-08-24 21:21:59 -0500
+Processing by HomeController#wedding as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/wedding.html.erb within layouts/application
+  Rendered home/wedding.html.erb within layouts/application (Duration: 0.9ms | Allocations: 133)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3728)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 4105)
+
+
+Started GET "/home/projects" for ::1 at 2022-08-24 21:22:01 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 1.0ms | Allocations: 133)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.5ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3730)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 4108)
+
+
+Started GET "/home/travel" for ::1 at 2022-08-26 18:45:11 -0500
+Processing by HomeController#travel as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/travel.html.erb within layouts/application
+  Rendered home/travel.html.erb within layouts/application (Duration: 0.4ms | Allocations: 15)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 553)
+  Rendered layout layouts/application.html.erb (Duration: 52.2ms | Allocations: 22049)
+Completed 200 OK in 57ms (Views: 54.1ms | Allocations: 22371)
+
+
+Started GET "/home/travel" for ::1 at 2022-08-26 18:45:11 -0500
+Processing by HomeController#travel as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/travel.html.erb within layouts/application
+  Rendered home/travel.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 3640)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 3959)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 18:45:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 18:45:12 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 3473)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 6895)
+Completed 200 OK in 23ms (Views: 22.0ms | Allocations: 7217)
+
+
+Started GET "/" for ::1 at 2022-08-26 19:29:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 6897)
+Completed 200 OK in 22ms (Views: 19.8ms | Allocations: 7215)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:29:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:31:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 3473)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 528)
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 25305)
+Completed 200 OK in 42ms (Views: 39.4ms | Allocations: 25624)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:31:43 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:31:50 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 3473)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | Allocations: 21204)
+Completed 200 OK in 32ms (Views: 30.8ms | Allocations: 21523)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:31:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:49:32 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.1ms | Allocations: 3473)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 41.5ms | Allocations: 25305)
+Completed 200 OK in 44ms (Views: 42.5ms | Allocations: 25624)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:49:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:50:51 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 6900)
+Completed 200 OK in 21ms (Views: 18.6ms | Allocations: 7219)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:50:51 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:51:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3917)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 7892)
+Completed 200 OK in 20ms (Views: 18.4ms | Allocations: 8925)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:51:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:51:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 3917)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 7886)
+Completed 200 OK in 24ms (Views: 21.9ms | Allocations: 8919)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:51:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:52:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 3926)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 702)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 7918)
+Completed 200 OK in 37ms (Views: 34.6ms | Allocations: 8952)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:52:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:53:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 3920)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 7886)
+Completed 200 OK in 16ms (Views: 14.6ms | Allocations: 8920)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:53:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:54:55 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 25307)
+Completed 200 OK in 39ms (Views: 37.2ms | Allocations: 25628)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:54:55 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:55:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 25194)
+Completed 200 OK in 35ms (Views: 33.9ms | Allocations: 25513)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:55:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:56:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 3920)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 7913)
+Completed 200 OK in 20ms (Views: 18.2ms | Allocations: 8946)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:56:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:58:49 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 3920)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 697)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 7885)
+Completed 200 OK in 29ms (Views: 25.8ms | Allocations: 8919)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:58:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 19:58:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3923)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.5ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 7901)
+Completed 200 OK in 20ms (Views: 18.4ms | Allocations: 8934)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 19:58:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 20:00:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 3922)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 7886)
+Completed 200 OK in 23ms (Views: 20.0ms | Allocations: 8920)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:00:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 20:05:55 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 3476)
+  Rendered home/_leftbodyfile.html.erb (Duration: 8.4ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 6915)
+Completed 200 OK in 37ms (Views: 35.1ms | Allocations: 7235)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:05:56 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 20:30:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 3931)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 701)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 26253)
+Completed 200 OK in 41ms (Views: 38.6ms | Allocations: 27285)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:30:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 20:32:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.2ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 25239)
+Completed 200 OK in 42ms (Views: 40.1ms | Allocations: 25559)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:32:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 20:35:33 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3475)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 25284)
+Completed 200 OK in 35ms (Views: 32.7ms | Allocations: 25603)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:39:23 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 20:42:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 3473)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 25296)
+Completed 200 OK in 40ms (Views: 38.7ms | Allocations: 25615)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:42:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/travel" for ::1 at 2022-08-26 20:42:57 -0500
+Processing by HomeController#travel as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/travel.html.erb within layouts/application
+  Rendered home/travel.html.erb within layouts/application (Duration: 1.4ms | Allocations: 134)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3759)
+Completed 200 OK in 12ms (Views: 10.0ms | Allocations: 4139)
+
+
+Started GET "/" for ::1 at 2022-08-26 20:43:05 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3922)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 7879)
+Completed 200 OK in 18ms (Views: 16.6ms | Allocations: 8910)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:43:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 20:43:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3923)
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.1ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 7894)
+Completed 200 OK in 25ms (Views: 22.3ms | Allocations: 8928)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:43:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/travel" for ::1 at 2022-08-26 20:43:32 -0500
+Processing by HomeController#travel as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/travel.html.erb within layouts/application
+  Rendered home/travel.html.erb within layouts/application (Duration: 0.9ms | Allocations: 133)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 550)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3778)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 4157)
+
+
+Started GET "/" for ::1 at 2022-08-26 20:44:50 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 6877)
+Completed 200 OK in 20ms (Views: 18.7ms | Allocations: 7196)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:44:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 20:47:15 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 3471)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 527)
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 25283)
+Completed 200 OK in 42ms (Views: 39.7ms | Allocations: 25603)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 20:47:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 21:06:13 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 3924)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 7915)
+Completed 200 OK in 17ms (Views: 15.3ms | Allocations: 8947)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 21:06:13 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 21:06:41 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3927)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 7878)
+Completed 200 OK in 21ms (Views: 19.2ms | Allocations: 8910)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 21:06:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 21:07:35 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 3929)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 26264)
+Completed 200 OK in 40ms (Views: 37.6ms | Allocations: 27297)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 21:07:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 21:24:23 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 3929)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 705)
+  Rendered layout layouts/application.html.erb (Duration: 48.0ms | Allocations: 26252)
+Completed 200 OK in 62ms (Views: 58.6ms | Allocations: 27285)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 21:24:23 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 21:24:56 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 21242)
+Completed 200 OK in 33ms (Views: 31.9ms | Allocations: 21562)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 21:24:56 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 21:25:31 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 3929)
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.0ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 7906)
+Completed 200 OK in 21ms (Views: 20.2ms | Allocations: 8939)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 21:25:31 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 21:26:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 37.3ms | Allocations: 25270)
+Completed 200 OK in 41ms (Views: 38.8ms | Allocations: 25590)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 21:26:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 21:26:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 17.2ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 6911)
+Completed 200 OK in 32ms (Views: 31.7ms | Allocations: 7231)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 21:26:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 21:39:44 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 3920)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 26243)
+Completed 200 OK in 50ms (Views: 46.1ms | Allocations: 27275)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 21:39:44 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:04:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3892)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 76.3ms | Allocations: 58157)
+Completed 200 OK in 85ms (Views: 82.0ms | Allocations: 59194)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:04:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:06:19 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 3895)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 7871)
+Completed 200 OK in 32ms (Views: 29.6ms | Allocations: 8907)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:06:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:07:02 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 3886)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 7875)
+Completed 200 OK in 32ms (Views: 28.2ms | Allocations: 8911)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:07:02 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:07:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2773)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.7ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6745)
+Completed 200 OK in 21ms (Views: 19.0ms | Allocations: 7780)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:07:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:07:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.5ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 7869)
+Completed 200 OK in 24ms (Views: 22.3ms | Allocations: 8906)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:07:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:08:15 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 3886)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 7866)
+Completed 200 OK in 35ms (Views: 31.7ms | Allocations: 8902)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:08:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:11:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 3914)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 7888)
+Completed 200 OK in 30ms (Views: 26.3ms | Allocations: 8925)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:11:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:13:05 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 3865)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 7825)
+Completed 200 OK in 29ms (Views: 26.0ms | Allocations: 8860)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:13:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:13:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 3892)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.9ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 7866)
+Completed 200 OK in 23ms (Views: 21.1ms | Allocations: 8903)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:13:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:16:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 3888)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.8ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 7875)
+Completed 200 OK in 28ms (Views: 25.4ms | Allocations: 8912)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:16:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:18:19 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 242)
+  Rendered home/_leftbodyfile.html.erb (Duration: 15.8ms | Allocations: 728)
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 4422)
+Completed 200 OK in 34ms (Views: 32.0ms | Allocations: 5458)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:18:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:21:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 3889)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 703)
+  Rendered layout layouts/application.html.erb (Duration: 596.4ms | Allocations: 19717)
+Completed 200 OK in 615ms (Views: 611.9ms | Allocations: 20753)
+
+
+Started GET "/" for ::1 at 2022-08-26 22:21:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 3473)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 394.5ms | Allocations: 17328)
+Completed 200 OK in 397ms (Views: 396.2ms | Allocations: 17650)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:21:26 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:22:44 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 106.0ms | Allocations: 56989)
+Completed 200 OK in 109ms (Views: 107.3ms | Allocations: 57311)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:22:44 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:27:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 3885)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 7843)
+Completed 200 OK in 30ms (Views: 27.4ms | Allocations: 8877)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:27:31 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:33:50 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 44.6ms | Allocations: 27069)
+Completed 200 OK in 49ms (Views: 46.1ms | Allocations: 27392)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:33:51 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:33:55 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 6886)
+Completed 200 OK in 19ms (Views: 17.5ms | Allocations: 7208)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:33:55 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:34:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 27080)
+Completed 200 OK in 38ms (Views: 36.9ms | Allocations: 27402)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:34:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:35:59 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | Allocations: 27011)
+Completed 200 OK in 49ms (Views: 46.9ms | Allocations: 27333)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:35:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:36:04 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 6901)
+Completed 200 OK in 17ms (Views: 16.1ms | Allocations: 7223)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:36:04 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:38:04 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.9ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 7863)
+Completed 200 OK in 27ms (Views: 23.3ms | Allocations: 8899)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:38:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:38:19 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 3887)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 7855)
+Completed 200 OK in 20ms (Views: 18.4ms | Allocations: 8890)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:38:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/projects" for ::1 at 2022-08-26 22:38:25 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 1.1ms | Allocations: 135)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 549)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 3763)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 4147)
+
+
+Started GET "/" for ::1 at 2022-08-26 22:39:34 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 3886)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.7ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 7832)
+Completed 200 OK in 32ms (Views: 28.9ms | Allocations: 8867)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:39:34 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:40:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3886)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 27.9ms | Allocations: 27994)
+Completed 200 OK in 32ms (Views: 31.3ms | Allocations: 29029)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:40:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-26 22:40:58 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 27055)
+Completed 200 OK in 41ms (Views: 39.8ms | Allocations: 27378)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-26 22:40:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:10:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3886)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 7859)
+Completed 200 OK in 31ms (Views: 29.1ms | Allocations: 8895)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:10:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:10:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 6896)
+Completed 200 OK in 17ms (Views: 16.0ms | Allocations: 7219)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:10:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:10:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 6900)
+Completed 200 OK in 16ms (Views: 14.8ms | Allocations: 7222)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:10:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:11:15 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3887)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 7850)
+Completed 200 OK in 24ms (Views: 20.8ms | Allocations: 8886)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:11:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:12:24 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 3896)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 7858)
+Completed 200 OK in 28ms (Views: 24.9ms | Allocations: 8894)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:12:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:12:49 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 3896)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 7862)
+Completed 200 OK in 28ms (Views: 24.3ms | Allocations: 8899)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:12:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:14:55 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 3895)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 7870)
+Completed 200 OK in 32ms (Views: 29.9ms | Allocations: 8906)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:14:55 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:15:00 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 25.1ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 9.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 6897)
+Completed 200 OK in 54ms (Views: 53.7ms | Allocations: 7221)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:15:00 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:16:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 3902)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 7895)
+Completed 200 OK in 36ms (Views: 32.0ms | Allocations: 8930)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:16:14 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:16:16 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 3464)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 6893)
+Completed 200 OK in 24ms (Views: 23.3ms | Allocations: 7216)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:16:17 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:16:23 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 6904)
+Completed 200 OK in 16ms (Views: 15.2ms | Allocations: 7225)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:16:23 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:17:35 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 31.4ms | Allocations: 3894)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 7899)
+Completed 200 OK in 49ms (Views: 45.8ms | Allocations: 8935)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:17:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:19:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.9ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.3ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 7905)
+Completed 200 OK in 30ms (Views: 27.2ms | Allocations: 8941)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:19:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:19:48 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3870)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 7838)
+Completed 200 OK in 22ms (Views: 19.8ms | Allocations: 8873)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:19:49 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:19:59 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 3867)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 7847)
+Completed 200 OK in 21ms (Views: 18.9ms | Allocations: 8882)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:19:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:22:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3446)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 462.7ms | Allocations: 17305)
+Completed 200 OK in 464ms (Views: 463.3ms | Allocations: 17627)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:22:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:23:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 402.4ms | Allocations: 17332)
+Completed 200 OK in 406ms (Views: 404.4ms | Allocations: 17653)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:23:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:23:41 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3447)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 6844)
+Completed 200 OK in 16ms (Views: 15.2ms | Allocations: 7166)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:23:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:28:44 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3867)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 389.1ms | Allocations: 18272)
+Completed 200 OK in 405ms (Views: 395.1ms | Allocations: 19306)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:28:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:29:04 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3867)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 702)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 7889)
+Completed 200 OK in 26ms (Views: 23.6ms | Allocations: 8925)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:29:04 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:29:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 3449)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6869)
+Completed 200 OK in 19ms (Views: 18.0ms | Allocations: 7191)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:29:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:29:17 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 3873)
+  Rendered home/_leftbodyfile.html.erb (Duration: 3.3ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 7898)
+Completed 200 OK in 22ms (Views: 20.9ms | Allocations: 8933)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:29:17 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:29:22 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 3868)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 7869)
+Completed 200 OK in 24ms (Views: 21.5ms | Allocations: 8904)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:29:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:29:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3867)
+  Rendered home/_leftbodyfile.html.erb (Duration: 8.7ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 7877)
+Completed 200 OK in 31ms (Views: 28.8ms | Allocations: 8912)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:29:28 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:29:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 6897)
+Completed 200 OK in 16ms (Views: 15.0ms | Allocations: 7220)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:29:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:29:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 7924)
+Completed 200 OK in 25ms (Views: 23.0ms | Allocations: 8958)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:29:43 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:30:04 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 3451)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 397.6ms | Allocations: 17319)
+Completed 200 OK in 400ms (Views: 398.4ms | Allocations: 17641)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:30:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:30:06 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 3447)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 6850)
+Completed 200 OK in 23ms (Views: 21.7ms | Allocations: 7172)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:30:06 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:30:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 3446)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.9ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 6857)
+Completed 200 OK in 16ms (Views: 15.3ms | Allocations: 7178)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:30:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:30:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 7530)
+Completed 200 OK in 14ms (Views: 12.1ms | Allocations: 7852)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:30:14 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:30:58 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 374.1ms | Allocations: 17346)
+Completed 200 OK in 377ms (Views: 375.0ms | Allocations: 17667)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:30:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:36:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 3872)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 8549)
+Completed 200 OK in 37ms (Views: 34.5ms | Allocations: 9584)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:36:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:36:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3868)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 7902)
+Completed 200 OK in 26ms (Views: 22.5ms | Allocations: 8938)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:36:29 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:36:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 3894)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 7944)
+Completed 200 OK in 25ms (Views: 23.5ms | Allocations: 8981)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:36:43 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:36:49 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 3890)
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.9ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 7925)
+Completed 200 OK in 37ms (Views: 33.3ms | Allocations: 8962)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:36:49 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:36:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.4ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 7928)
+Completed 200 OK in 32ms (Views: 27.6ms | Allocations: 8963)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:36:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:37:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 3872)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 7918)
+Completed 200 OK in 24ms (Views: 22.1ms | Allocations: 8954)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:37:09 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:37:20 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 3868)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.5ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 7898)
+Completed 200 OK in 24ms (Views: 20.8ms | Allocations: 8934)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:37:21 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:37:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 7929)
+Completed 200 OK in 22ms (Views: 20.2ms | Allocations: 8966)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:37:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:37:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 3890)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 7935)
+Completed 200 OK in 23ms (Views: 20.8ms | Allocations: 8971)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:37:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:37:34 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 7937)
+Completed 200 OK in 16ms (Views: 14.2ms | Allocations: 8972)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:37:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:37:42 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 3870)
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 7918)
+Completed 200 OK in 22ms (Views: 20.8ms | Allocations: 8954)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:37:42 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:37:46 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.8ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 7940)
+Completed 200 OK in 25ms (Views: 23.2ms | Allocations: 8977)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:37:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:37:59 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 3890)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.5ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 7933)
+Completed 200 OK in 26ms (Views: 24.8ms | Allocations: 8969)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:37:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:38:41 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.5ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 6905)
+Completed 200 OK in 24ms (Views: 21.7ms | Allocations: 7228)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:38:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:40:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 6898)
+Completed 200 OK in 22ms (Views: 20.8ms | Allocations: 7219)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:40:09 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:40:40 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 29.7ms | Allocations: 3888)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 36.7ms | Allocations: 7933)
+Completed 200 OK in 50ms (Views: 47.8ms | Allocations: 8969)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:40:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:41:01 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 7941)
+Completed 200 OK in 16ms (Views: 14.3ms | Allocations: 8978)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:41:01 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:41:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 3890)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 7926)
+Completed 200 OK in 24ms (Views: 20.6ms | Allocations: 8962)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:41:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:46:31 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.3ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 395.0ms | Allocations: 17338)
+Completed 200 OK in 399ms (Views: 396.5ms | Allocations: 17661)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:46:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:46:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 367.4ms | Allocations: 17345)
+Completed 200 OK in 369ms (Views: 368.2ms | Allocations: 17667)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:46:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:47:03 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 7517)
+Completed 200 OK in 21ms (Views: 20.0ms | Allocations: 7840)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:47:03 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/projects" for ::1 at 2022-08-27 20:47:22 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 1.1ms | Allocations: 134)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 549)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3759)
+Completed 200 OK in 13ms (Views: 11.6ms | Allocations: 4141)
+
+
+Started GET "/" for ::1 at 2022-08-27 20:47:41 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 397.5ms | Allocations: 17284)
+Completed 200 OK in 403ms (Views: 401.5ms | Allocations: 17605)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:47:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:47:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 412.9ms | Allocations: 17334)
+Completed 200 OK in 415ms (Views: 413.6ms | Allocations: 17656)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:47:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:48:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 394.0ms | Allocations: 17338)
+Completed 200 OK in 397ms (Views: 395.2ms | Allocations: 17661)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:48:26 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:48:36 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 420.5ms | Allocations: 17291)
+Completed 200 OK in 423ms (Views: 421.3ms | Allocations: 17613)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:48:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:48:42 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 323.9ms | Allocations: 17331)
+Completed 200 OK in 331ms (Views: 328.3ms | Allocations: 17652)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:48:43 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:48:51 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.8ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 298.9ms | Allocations: 17280)
+Completed 200 OK in 301ms (Views: 299.6ms | Allocations: 17601)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:48:51 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:51:10 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 388.1ms | Allocations: 17336)
+Completed 200 OK in 392ms (Views: 389.4ms | Allocations: 17658)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:51:10 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:51:56 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 6894)
+Completed 200 OK in 29ms (Views: 26.8ms | Allocations: 7216)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:51:56 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:52:33 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.8ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 366.7ms | Allocations: 17275)
+Completed 200 OK in 371ms (Views: 367.5ms | Allocations: 17596)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:52:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:53:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 3469)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 526)
+  Rendered layout layouts/application.html.erb (Duration: 379.6ms | Allocations: 17344)
+Completed 200 OK in 383ms (Views: 380.9ms | Allocations: 17666)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:53:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:53:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 350.9ms | Allocations: 17337)
+Completed 200 OK in 354ms (Views: 351.8ms | Allocations: 17659)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:53:31 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:53:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 353.4ms | Allocations: 17293)
+Completed 200 OK in 354ms (Views: 353.6ms | Allocations: 17615)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:53:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 20:54:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 340.6ms | Allocations: 17341)
+Completed 200 OK in 343ms (Views: 341.2ms | Allocations: 17663)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 20:54:09 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:00:12 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 388.4ms | Allocations: 17345)
+Completed 200 OK in 392ms (Views: 389.7ms | Allocations: 17667)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:00:12 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:01:06 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 3470)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 393.8ms | Allocations: 17297)
+Completed 200 OK in 397ms (Views: 395.4ms | Allocations: 17618)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:01:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:01:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 7520)
+Completed 200 OK in 19ms (Views: 17.9ms | Allocations: 7842)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:01:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:01:41 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3447)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 317.0ms | Allocations: 17324)
+Completed 200 OK in 320ms (Views: 318.1ms | Allocations: 17645)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:01:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:01:52 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 3471)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 372.0ms | Allocations: 17338)
+Completed 200 OK in 374ms (Views: 372.7ms | Allocations: 17659)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:01:52 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:01:58 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 239.9ms | Allocations: 17355)
+Completed 200 OK in 243ms (Views: 240.9ms | Allocations: 17677)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:01:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:02:02 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6884)
+Completed 200 OK in 13ms (Views: 12.8ms | Allocations: 7206)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:02:02 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:02:06 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 3448)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.4ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 6873)
+Completed 200 OK in 15ms (Views: 13.8ms | Allocations: 7195)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:02:06 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:06:42 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.0ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 6916)
+Completed 200 OK in 26ms (Views: 24.2ms | Allocations: 7237)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:06:43 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:08:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 387.2ms | Allocations: 18388)
+Completed 200 OK in 396ms (Views: 392.8ms | Allocations: 19423)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:08:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:08:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 7920)
+Completed 200 OK in 24ms (Views: 21.4ms | Allocations: 8956)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:08:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:09:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 3447)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 6882)
+Completed 200 OK in 19ms (Views: 18.3ms | Allocations: 7205)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:09:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:09:40 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 7936)
+Completed 200 OK in 36ms (Views: 32.1ms | Allocations: 8970)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:09:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:09:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 7945)
+Completed 200 OK in 21ms (Views: 19.7ms | Allocations: 8981)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:09:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:10:31 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3890)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.7ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 7925)
+Completed 200 OK in 26ms (Views: 22.3ms | Allocations: 8962)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:10:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:10:40 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 3869)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 7921)
+Completed 200 OK in 26ms (Views: 23.7ms | Allocations: 8957)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:10:41 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:10:46 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 702)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 7947)
+Completed 200 OK in 30ms (Views: 28.3ms | Allocations: 8983)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:10:46 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:10:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 7941)
+Completed 200 OK in 23ms (Views: 20.6ms | Allocations: 8977)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:10:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:11:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 3893)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.5ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 7930)
+Completed 200 OK in 24ms (Views: 22.1ms | Allocations: 8966)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:11:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:13:13 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 3869)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 8013)
+Completed 200 OK in 30ms (Views: 27.0ms | Allocations: 9048)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:13:13 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:13:38 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 31.8ms | Allocations: 23046)
+Completed 200 OK in 34ms (Views: 32.9ms | Allocations: 23370)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:13:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:13:49 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 3472)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 6903)
+Completed 200 OK in 18ms (Views: 16.9ms | Allocations: 7226)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:13:49 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:34:12 -0500
+Started GET "/" for ::1 at 2022-08-27 21:34:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 267.2ms | Allocations: 224686)
+  Rendered home/index.html.erb within layouts/application (Duration: 267.3ms | Allocations: 225383)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.8ms | Allocations: 1066)
+  Rendered layout layouts/application.html.erb (Duration: 284.6ms | Allocations: 264054)
+Completed 200 OK in 291ms (Views: 286.8ms | ActiveRecord: 0.0ms | Allocations: 270145)
+
+
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.9ms | Allocations: 1961)
+  Rendered layout layouts/application.html.erb (Duration: 285.6ms | Allocations: 264869)
+Completed 200 OK in 291ms (Views: 287.7ms | ActiveRecord: 0.0ms | Allocations: 270755)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:34:12 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:35:24 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 3464)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 530.6ms | Allocations: 17644)
+Completed 200 OK in 534ms (Views: 532.0ms | ActiveRecord: 0.0ms | Allocations: 17968)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:35:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:35:39 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 3464)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 6889)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 7213)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:35:39 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:35:51 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 3465)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 378.7ms | Allocations: 17326)
+Completed 200 OK in 381ms (Views: 379.7ms | ActiveRecord: 0.0ms | Allocations: 17654)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:35:52 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:37:10 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 3465)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 44.9ms | Allocations: 27098)
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.0ms | Allocations: 27425)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:37:10 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:39:59 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 3917)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 28107)
+Completed 200 OK in 56ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 29145)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:39:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:40:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 3464)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | Allocations: 6899)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms | Allocations: 7225)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:40:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:40:54 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 3917)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 8076)
+Completed 200 OK in 32ms (Views: 28.7ms | Allocations: 9110)
+
+
+Started GET "/" for ::1 at 2022-08-27 21:41:03 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 3903)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 8036)
+Completed 200 OK in 25ms (Views: 23.4ms | Allocations: 9072)
+
+
+Started GET "/" for ::1 at 2022-08-27 21:41:32 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3899)
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.0ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 8042)
+Completed 200 OK in 25ms (Views: 23.5ms | Allocations: 9077)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:41:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:42:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 3465)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 383.2ms | Allocations: 33327)
+Completed 200 OK in 386ms (Views: 384.4ms | Allocations: 33650)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:42:46 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:43:22 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 3918)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 700)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 8076)
+Completed 200 OK in 30ms (Views: 26.5ms | Allocations: 9110)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:43:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:43:38 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3897)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.5ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 8034)
+Completed 200 OK in 23ms (Views: 20.7ms | Allocations: 9069)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:43:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:43:58 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 378.4ms | Allocations: 17352)
+Completed 200 OK in 380ms (Views: 379.0ms | Allocations: 17674)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:43:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:44:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 3920)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 8070)
+Completed 200 OK in 23ms (Views: 21.4ms | Allocations: 9104)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:44:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:44:19 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3899)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 8038)
+Completed 200 OK in 23ms (Views: 20.6ms | Allocations: 9073)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:44:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:45:05 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 3922)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 8087)
+Completed 200 OK in 38ms (Views: 34.7ms | Allocations: 9122)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:45:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:45:34 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 3467)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 6904)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 7226)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:45:34 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:46:42 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 3446)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 58.9ms | Allocations: 27048)
+Completed 200 OK in 62ms (Views: 60.2ms | Allocations: 27370)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:46:42 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:47:06 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 3467)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.1ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 35.1ms | Allocations: 26963)
+Completed 200 OK in 38ms (Views: 37.0ms | Allocations: 27284)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:47:06 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:47:13 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 23045)
+Completed 200 OK in 33ms (Views: 31.4ms | Allocations: 23367)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:47:13 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:47:20 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 3468)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 15192)
+Completed 500 Internal Server Error in 25ms (Allocations: 15495)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+     8:     <%= csrf_meta_tags %>
+     9:     <%= csp_meta_tag %>
+    10:     <%= stylesheet_link_tag "application", media: 'all', "data-turbo-track": "reload" %>
+    11:     <%= javascript_importmap_tags %>
+    12:     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    13:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    14:     <script src="https://unpkg.com/scrollreveal"></script>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for ::1 at 2022-08-27 21:47:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 37.0ms | Allocations: 27015)
+Completed 200 OK in 39ms (Views: 37.7ms | Allocations: 27336)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:47:30 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:47:51 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 3917)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.7ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 8076)
+Completed 200 OK in 34ms (Views: 32.0ms | Allocations: 9110)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:47:51 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:49:19 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 3919)
+  Rendered home/_leftbodyfile.html.erb (Duration: 4.6ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 8079)
+Completed 200 OK in 38ms (Views: 31.7ms | Allocations: 9115)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:49:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:50:03 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 3917)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 8070)
+Completed 200 OK in 34ms (Views: 30.0ms | Allocations: 9106)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:50:03 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:50:32 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 3464)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 528)
+  Rendered layout layouts/application.html.erb (Duration: 373.4ms | Allocations: 17342)
+Completed 200 OK in 377ms (Views: 374.8ms | Allocations: 17664)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:50:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:51:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 18.0ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 27010)
+Completed 200 OK in 48ms (Views: 45.8ms | Allocations: 27331)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:51:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:52:10 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 84.9ms | Allocations: 26948)
+Completed 200 OK in 88ms (Views: 85.9ms | Allocations: 27270)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:52:10 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:52:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3467)
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 27016)
+Completed 200 OK in 42ms (Views: 40.6ms | Allocations: 27337)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:52:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:52:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 3460)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 26972)
+Completed 200 OK in 38ms (Views: 36.9ms | Allocations: 27294)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:52:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:53:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 3467)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 27006)
+Completed 200 OK in 51ms (Views: 47.5ms | Allocations: 27327)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:53:43 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:54:21 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 3462)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 40.5ms | Allocations: 27013)
+Completed 200 OK in 43ms (Views: 41.4ms | Allocations: 27334)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:54:21 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:55:17 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 27014)
+Completed 200 OK in 36ms (Views: 34.2ms | Allocations: 27335)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:55:17 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:55:22 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 27065)
+Completed 200 OK in 27ms (Views: 26.3ms | Allocations: 27386)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:55:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:55:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.3ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 63.2ms | Allocations: 27028)
+Completed 200 OK in 67ms (Views: 64.5ms | Allocations: 27349)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:55:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:55:32 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 31.4ms | Allocations: 23011)
+Completed 200 OK in 33ms (Views: 31.9ms | Allocations: 23333)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:55:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:56:35 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.4ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 53.0ms | Allocations: 27017)
+Completed 200 OK in 56ms (Views: 54.1ms | Allocations: 27338)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:56:35 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:56:53 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 27024)
+Completed 200 OK in 44ms (Views: 41.7ms | Allocations: 27345)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:56:53 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:57:16 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 27064)
+Completed 200 OK in 51ms (Views: 49.0ms | Allocations: 27385)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:57:16 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:57:48 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 375.8ms | Allocations: 17349)
+Completed 200 OK in 379ms (Views: 376.6ms | Allocations: 17670)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:57:48 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:58:03 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 3471)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 397.6ms | Allocations: 17349)
+Completed 200 OK in 400ms (Views: 398.5ms | Allocations: 17670)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:58:04 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:58:23 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 386.6ms | Allocations: 17353)
+Completed 200 OK in 389ms (Views: 387.3ms | Allocations: 17674)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:58:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:58:46 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 27540)
+Completed 200 OK in 41ms (Views: 38.9ms | Allocations: 27861)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:58:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:59:11 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 3467)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 6894)
+Completed 200 OK in 20ms (Views: 18.4ms | Allocations: 7215)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:59:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:59:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 3468)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 6893)
+Completed 200 OK in 14ms (Views: 10.9ms | Allocations: 7215)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:59:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 21:59:34 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 3447)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 6792)
+Completed 200 OK in 14ms (Views: 13.1ms | Allocations: 7113)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 21:59:34 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 22:00:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 3467)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 6888)
+Completed 200 OK in 15ms (Views: 14.2ms | Allocations: 7209)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 22:00:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 22:03:46 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 301.1ms | Allocations: 125930)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 704)
+  Rendered layout layouts/application.html.erb (Duration: 309.8ms | Allocations: 145779)
+Completed 200 OK in 316ms (Views: 311.6ms | ActiveRecord: 0.0ms | Allocations: 151135)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 22:03:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-08-27 22:07:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (7.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 80.1ms | Allocations: 51158)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 719)
+  Rendered layout layouts/application.html.erb (Duration: 90.4ms | Allocations: 71092)
+Completed 200 OK in 97ms (Views: 92.6ms | ActiveRecord: 0.0ms | Allocations: 76449)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-08-27 22:07:02 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  

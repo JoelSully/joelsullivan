@@ -76,6 +76,7 @@ $mobilelargefont: 12vw;
   html, body {
     height: auto;
     
+    
 
     .whole-body {
       min-height: 100vh;
@@ -181,8 +182,9 @@ $mobilelargefont: 12vw;
               position: relative;
               margin-left: 50vw;
               display: block;
-              height: 25vw; /*Height should be double border thickness*/
+              height: 25vw;
               @include zone-in(1721ms, 721ms);
+              
 
             }
             .chevron::before,
@@ -190,21 +192,22 @@ $mobilelargefont: 12vw;
               position:absolute;
               display:block;
               content:"";
-              border:5vw solid transparent; /*Adjust chevron size*/
+              border:5vw solid transparent; 
             }
             .chevron::before {
               top:0;
-              border-top-color:#F7E6D9; /*Chevron Color*/
+              border-top-color:#F7E6D9;
             }
             .chevron::after {
-              top:-10px; /*Adjust thickness*/
-              border-top-color:#707070; /*Match chevron background colour*/
+              top:-10px; 
+              border-top-color:#707070; 
             }
           }
 
           .right-body-content-about {
             padding-top: 3vh;
             padding-bottom: 3vh;
+            visibility: hidden;
 
             .right-body-content-about-main {
               font-size: $mobilemediumfont;
@@ -235,6 +238,7 @@ $mobilelargefont: 12vw;
 
           .right-body-content-grid {
             margin-top: 2vw;
+            visibility: hidden;
           }
 
           .pictures-row {
@@ -300,41 +304,50 @@ $mobilelargefont: 12vw;
         position: fixed;
 
         .left-body-content {
+          visibility: hidden;
           margin-top: 20vh;
           .left-body-main-text {
 
             .left-body-main-text-first {
               font-size: $smallfont;
+              height: auto;
               font-weight: bold;
 
               .left-body-main-text-first-text {
                 margin-bottom: -5%;
+                height: auto;
                 margin-right: 45%;
               }
               
             }
             .left-body-main-text-second {
               font-size: $largefont;
+              height: auto;
               margin-bottom: -5%;
               font-family: ''
             }
             .left-body-main-text-third {
               font-size: $mediumfont;
               color: $mediumfontcolor;
+              height: auto;
               margin-left: 27%;
             }
           }       
         }
 
         .left-body-lower-content {
+          visibility: hidden;
+          height: auto;
           margin-top: 2.5vh;
           margin-left: 15vw;
           margin-right: 5vw;
 
           .left-body-lower-content1 {
+            height: auto;
             
 
             .left-body-lower-content-picture1 {
+              height: auto;
               width: 10vw;
               z-index: -1;
               margin-left: 10vw;
@@ -355,6 +368,7 @@ $mobilelargefont: 12vw;
               z-index: 100;
               font-weight: bold;
               font-size: 1vw;
+              height: auto;
 
               .left-body-lower-content-verbiage {
                 font-weight: bold;
@@ -388,10 +402,11 @@ $mobilelargefont: 12vw;
         padding-bottom: .75%;
 
         .right-body-content {
-          margin-top: 39rem;
+          padding-top: 90vh;
           font-size: 5vw;
 
           .cheveron-container {
+            visibility: hidden;
             margin-left: 50%;
 
 
@@ -399,7 +414,7 @@ $mobilelargefont: 12vw;
               position: relative;
               margin-left: 50%;
               display:block;
-              height:50px; /*Height should be double border thickness*/
+              height:50px; 
               @include zone-in(1721ms, 721ms);
 
             }
@@ -408,19 +423,20 @@ $mobilelargefont: 12vw;
               position:absolute;
               display:block;
               content:"";
-              border:25px solid transparent; /*Adjust chevron size*/
+              border:25px solid transparent; 
             }
             .chevron::before {
               top:0;
-              border-top-color:#F7E6D9; /*Chevron Color*/
+              border-top-color:#F7E6D9; 
             }
             .chevron::after {
-              top:-10px; /*Adjust thickness*/
-              border-top-color:#707070; /*Match chevron background colour*/
+              top:-10px; 
+              border-top-color:#707070; 
             }
           }
 
           .right-body-content-about {
+            visibility: hidden;
             padding-top: 3vw;
             padding-bottom: 3vw;
 
@@ -449,8 +465,15 @@ $mobilelargefont: 12vw;
             }
           }
 
+          
+
           .right-body-content-grid {
             margin-top: 2vw;
+            visibility: hidden;
+          }
+          .swiper {
+            width: 600px;
+            height: 300px;
           }
 
           .pictures-row {
@@ -477,7 +500,7 @@ $mobilelargefont: 12vw;
             width: 14vw;
 
             background-color: #F7E6D9;
-            margin-top: .5vw;
+            margin-top: 4vw;
             margin-bottom: 2.5vw;
           }
           .col-container-inner-picture {

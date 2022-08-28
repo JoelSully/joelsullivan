@@ -1,75 +1,76 @@
 <div class="d-block body-right">
-  <div class="d-block right-body-content">
-      <div class="d-block cheveron-container">
-        <i class="d-inline chevron"></i>
+  <div data-controller="clipboard" class="d-block right-body-content">
+
+    <div class="d-block cheveron-container">
+      <i class="d-inline chevron"></i>
+    </div>
+
+
+    <div class="d-block right-body-content-about">
+      <div class="d-block right-body-content-about-main">
+      "I love everything that can be discovered through the creative process"
       </div>
 
-
-      <div class="d-block right-body-content-about">
-        <div class="d-block right-body-content-about-main">
-        "I love everything that can be discovered through the creative process"
-        </div>
-
-        <div class="d-block right-body-content-about-personal">
-          Personal: </br>
-          I grew up in a small beach town - Santa Cruz, California. My retail career has given me the chance to live in several different states, eventually landing here in Minnesota (or Minne-sohhh-ta as my father-in-law would say)
-        </div>
-
-        <div class="d-block right-body-content-about-technical">
-          Technical: </br>
-          Currently, I am developing web apps utilizing Ruby on Rails, Wordpress, HTML CSS SCSS JS
-
-        </div>
+      <div class="d-block right-body-content-about-personal">
+        Personal: </br>
+        I grew up in a small beach town - Santa Cruz, California. My retail career has given me the chance to live in several different states, eventually landing here in Minnesota (or Minne-sohhh-ta as my father-in-law would say)
       </div>
 
-      <div class="d-block cheveron-container">
-        <i class="d-inline chevron"></i>
-      </div>
+      <div class="d-block right-body-content-about-technical">
+        Technical: </br>
+        Currently, I am developing web apps utilizing Ruby on Rails, Wordpress, HTML CSS SCSS JS
 
-
-      <div class="right-body-content-grid">
-
-        <div class="row pictures-row">
-          <div class="col col-container">
-            <div class="container col-container-inner">
-              <%= link_to image_tag("aptos-view.jpg", :class => "img-fluid col-container-inner-picture"), home_hometown_path %>
-            </div>
-          </div>
-
-          <div class="col col-container">
-            <div class="container col-container-inner">
-              <%= link_to image_tag("bocce-ellie.png", :class => "img-fluid col-container-inner-picture"), home_animals_path %>
-            </div>
-          </div>
-        </div>
-
-        <div class="row pictures-row">
-          <div class="col col-container">
-            <div class="container col-container-inner">
-              <%= link_to image_tag("joel-jumping.jpg", :class => "img-fluid col-container-inner-picture"), home_travel_path %>
-            </div>
-          </div>
-
-          <div class="col col-container">
-            <div class="container col-container-inner">
-              <%= link_to image_tag("wedding-pic.jpg", :class => "img-fluid col-container-inner-picture"), home_wedding_path %>
-            </div>
-          </div>
-        </div>
-
-        <div class="row pictures-row">
-          <div class="col col-container">
-            <div class="container col-container-inner">
-              <%= link_to image_tag("panda-pic.jpg", :class => "img-fluid col-container-inner-picture"), home_wifey_path %>
-            </div>
-          </div>
-          <div class="col col-container">
-            <div class="container col-container-inner">
-              <%= link_to image_tag("code-pic.png", :class => "img-fluid col-container-inner-picture"), home_projects_path %>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-  </div>
+
+    
+
+    <div class="d-block cheveron-container">
+      <i class="d-inline chevron"></i>
+    </div>
+
+    <div class="right-body-content-grid swiper">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="container col-container-inner">
+            <%= link_to image_tag("aptos-view.jpg", :class => "img-fluid col-container-inner-picture"), home_hometown_path %>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container col-container-inner">
+            <%= link_to image_tag("bocce-ellie.png", :class => "img-fluid col-container-inner-picture"), home_animals_path %>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container col-container-inner">
+            <%= link_to image_tag("joel-jumping.jpg", :class => "img-fluid col-container-inner-picture"), home_travel_path %>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container col-container-inner">
+            <%= link_to image_tag("wedding-pic.jpg", :class => "img-fluid col-container-inner-picture"), home_wedding_path %>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container col-container-inner">
+            <%= link_to image_tag("panda-pic.jpg", :class => "img-fluid col-container-inner-picture"), home_wifey_path %>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container col-container-inner">
+            <%= link_to image_tag("code-pic.png", :class => "img-fluid col-container-inner-picture"), home_projects_path %>
+          </div>
+        </div>
+      
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+
+
+</div>
 </div>

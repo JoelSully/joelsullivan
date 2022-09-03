@@ -64887,3 +64887,13 @@ Started GET "/LobsterTwo.tff" for ::1 at 2022-09-03 17:50:03 -0500
   
 ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
   
+Started GET "/" for ::1 at 2022-09-03 18:18:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 163.3ms | Allocations: 133462)
+  Rendered layout layouts/application.html.erb (Duration: 171.1ms | Allocations: 152478)
+Completed 200 OK in 176ms (Views: 172.7ms | ActiveRecord: 0.0ms | Allocations: 157837)
+
+

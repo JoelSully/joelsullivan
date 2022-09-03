@@ -19,8 +19,5 @@ class HomeController < ApplicationController
 
   def wedding
   end
-
-  def array
-  end
   
 end

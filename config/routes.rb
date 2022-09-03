@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   #get 'home/index'
   get 'home/hometown'
   get 'home/travel'
-  get 'home/array'
   get 'home/wedding'
   get 'home/wifey'
   get 'home/animals'

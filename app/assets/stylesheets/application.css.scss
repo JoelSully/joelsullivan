@@ -304,8 +304,9 @@ $mobilelargefont: 12vw;
         position: fixed;
 
         .left-body-content {
-          visibility: hidden;
           margin-top: 20vh;
+          @include zone-in(850ms, 300ms);
+
           .left-body-main-text {
 
             .left-body-main-text-first {
@@ -324,7 +325,6 @@ $mobilelargefont: 12vw;
               font-size: $largefont;
               height: auto;
               margin-bottom: -5%;
-              font-family: ''
             }
             .left-body-main-text-third {
               font-size: $mediumfont;
@@ -336,7 +336,6 @@ $mobilelargefont: 12vw;
         }
 
         .left-body-lower-content {
-          visibility: hidden;
           height: auto;
           margin-top: 2.5vh;
           margin-left: 15vw;
@@ -470,10 +469,11 @@ $mobilelargefont: 12vw;
           .right-body-content-grid {
             margin-top: 2vw;
             visibility: hidden;
+            margin-bottom: 5vw;
           }
           .swiper {
-            width: 600px;
-            height: 300px;
+            width: 40vw;
+            height: auto;
           }
 
           .pictures-row {
@@ -494,13 +494,14 @@ $mobilelargefont: 12vw;
             margin-right: .6vw;
             margin-left: .6vw;
             background-color: rgb(143, 190, 200);
+            
           }
           .col-container-inner {
-            height: 14vw;
-            width: 14vw;
+            height: 28vw;
+            width: 28vw;
 
             background-color: #F7E6D9;
-            margin-top: 4vw;
+            margin-top: 4vh;
             margin-bottom: 2.5vw;
           }
           .col-container-inner-picture {
@@ -510,6 +511,69 @@ $mobilelargefont: 12vw;
             border-bottom-left-radius: 40%;
             border-bottom-right-radius: 10%;
             width: 50vw;
+          }
+        }
+      }
+    }
+    .projects-body-content {
+      margin-top: 12vh;
+
+      .projects-first-block {
+        visibility: hidden;
+        width: 100%;
+
+        .first-block-element {
+          margin-left: 4vw;
+        }
+        
+        .first-block-element-picture {
+          width: 20vw;
+          border-radius: 20% 50%;
+          opacity: 85%;
+          box-shadow: 1vw 1vw 1vw rgb(109, 134, 151);
+        }
+
+        .first-block-second-element {
+
+          .first-block-second-element-text {
+            padding-top: 8vw;
+            margin-left: 3vw;
+            font-size: $smallfont;
+            text-align: center;
+            width: 20vw;
+          }
+        }
+      }
+    }
+    .array-body-content {
+      margin-top: 12vh;
+      margin-bottom: 12vh;
+
+      .projects-first-block {
+        visibility: hidden;
+        width: 100%;
+
+        .first-block-element {
+          margin-left: 1vw;
+          width: 25vw;
+          height: 25vw;
+        }
+        
+        .first-block-element-picture {
+          width: 20vw;
+          border-radius: 20% 50%;
+          opacity: 85%;
+          box-shadow: 1vw 1vw 1vw rgb(109, 134, 151);
+        }
+
+        .first-block-second-element {
+
+          .first-block-second-element-text {
+            margin-left: 1vw;
+            padding-top: 11vw;
+            font-size: $smallfont;
+            text-align: center;
+            width: 20vw;
           }
         }
       }

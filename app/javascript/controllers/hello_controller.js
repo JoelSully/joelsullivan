@@ -4,8 +4,7 @@ import { Controller } from "@hotwired/stimulus"
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-    speed: 721,
-    effect: 'cube',
+    speed: 600,
 
     // Navigation arrows
     navigation: {

@@ -64787,3 +64787,80 @@ Processing by HomeController#array as HTML
 Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 6654)
 
 
+Started GET "/home/array" for ::1 at 2022-09-03 17:07:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#array as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/array.html.erb within layouts/application
+  Rendered home/array.html.erb within layouts/application (Duration: 731.1ms | Allocations: 228345)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 710)
+  Rendered layout layouts/application.html.erb (Duration: 739.3ms | Allocations: 247312)
+Completed 200 OK in 745ms (Views: 741.0ms | ActiveRecord: 0.0ms | Allocations: 252668)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-09-03 17:07:08 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-09-03 17:07:19 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 3272)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6594)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 6982)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-09-03 17:07:21 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-09-03 17:07:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2919)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.4ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 57.2ms | Allocations: 25555)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.0ms | Allocations: 25881)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-09-03 17:07:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/" for ::1 at 2022-09-03 17:08:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 3352)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 705)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 7410)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 8452)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-09-03 17:08:57 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/projects" for ::1 at 2022-09-03 17:09:01 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1597)
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.6ms | Allocations: 702)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 5636)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 6688)
+
+
+Started GET "/home/array" for ::1 at 2022-09-03 17:09:02 -0500
+Processing by HomeController#array as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/array.html.erb within layouts/application
+  Rendered home/array.html.erb within layouts/application (Duration: 9.4ms | Allocations: 3272)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.2ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 6595)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 6979)
+
+

@@ -65048,3 +65048,252 @@ Started GET "/LobsterTwo.tff" for ::1 at 2022-09-04 19:11:19 -0500
   
 ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
   
+Started GET "/" for ::1 at 2022-09-04 19:21:19 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 667.9ms | Allocations: 140817)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.6ms | Allocations: 709)
+  Rendered layout layouts/application.html.erb (Duration: 677.4ms | Allocations: 158938)
+Completed 200 OK in 683ms (Views: 679.1ms | ActiveRecord: 0.0ms | Allocations: 164292)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-09-04 19:21:20 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/projects" for ::1 at 2022-09-04 19:21:22 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 28.8ms | Allocations: 5755)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 5834)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 6205)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_array_path' for #<ActionView::Base:0x0000000000c328>
+Did you mean?  home_wifey_path):
+    20: 
+    21:    <div class="d-flex projects-first-block">
+    22:     <div class="d-inline-flex first-block-element">
+    23:       <%= link_to image_tag("code-pic.png", :class => "img-fluid first-block-element-picture"), home_array_path %>
+    24:     </div>
+    25: 
+    26:     <div class="d-inline-flex first-block-second-element">
+  
+app/views/home/projects.html.erb:23
+Started GET "/" for ::1 at 2022-09-04 19:24:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2935)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.7ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 6379)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 6704)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-09-04 19:24:27 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/projects" for ::1 at 2022-09-04 19:24:31 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 28.3ms | Allocations: 5468)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 5547)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms | Allocations: 5837)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_array_path' for #<ActionView::Base:0x0000000000c968>
+Did you mean?  home_wifey_path):
+    20: 
+    21:    <div class="d-flex projects-first-block">
+    22:     <div class="d-inline-flex first-block-element">
+    23:       <%= link_to image_tag("code-pic.png", :class => "img-fluid first-block-element-picture"), home_array_path %>
+    24:     </div>
+    25: 
+    26:     <div class="d-inline-flex first-block-second-element">
+  
+app/views/home/projects.html.erb:23
+Started GET "/home/projects" for ::1 at 2022-09-04 19:26:14 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 15.0ms | Allocations: 5695)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 5775)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 6818)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_array_path' for #<ActionView::Base:0x00000000010cc0>
+Did you mean?  home_wifey_path):
+    20: 
+    21:    <div class="d-flex projects-first-block">
+    22:     <div class="d-inline-flex first-block-element">
+    23:       <%= link_to image_tag("code-pic.png", :class => "img-fluid first-block-element-picture"), home_array_path %>
+    24:     </div>
+    25: 
+    26:     <div class="d-inline-flex first-block-second-element">
+  
+app/views/home/projects.html.erb:23
+Started GET "/home/projects" for ::1 at 2022-09-04 19:26:45 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 10.3ms | Allocations: 5479)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 5558)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 6302)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_array_path' for #<ActionView::Base:0x00000000014cf8>
+Did you mean?  home_wifey_path):
+    20: 
+    21:    <div class="d-flex projects-first-block">
+    22:     <div class="d-inline-flex first-block-element">
+    23:       <%= link_to image_tag("code-pic.png", :class => "img-fluid first-block-element-picture"), home_array_path %>
+    24:     </div>
+    25: 
+    26:     <div class="d-inline-flex first-block-second-element">
+  
+app/views/home/projects.html.erb:23
+Started GET "/home/projects" for ::1 at 2022-09-04 19:28:03 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 30.8ms | Allocations: 5741)
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 5820)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms | Allocations: 6824)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_array_path' for #<ActionView::Base:0x00000000015068>
+Did you mean?  home_wifey_path):
+    20: 
+    21:    <div class="d-flex projects-first-block">
+    22:     <div class="d-inline-flex first-block-element">
+    23:       <%= link_to image_tag("code-pic.png", :class => "img-fluid first-block-element-picture"), home_array_path %>
+    24:     </div>
+    25: 
+    26:     <div class="d-inline-flex first-block-second-element">
+  
+app/views/home/projects.html.erb:23
+Started GET "/" for ::1 at 2022-09-04 19:28:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 43.0ms | Allocations: 50311)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.5ms | Allocations: 724)
+  Rendered layout layouts/application.html.erb (Duration: 49.7ms | Allocations: 68498)
+Completed 200 OK in 54ms (Views: 51.1ms | ActiveRecord: 0.0ms | Allocations: 73852)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-09-04 19:28:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/projects" for ::1 at 2022-09-04 19:28:22 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 27.3ms | Allocations: 5781)
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 5860)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms | Allocations: 6232)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_array_path' for #<ActionView::Base:0x0000000000c440>
+Did you mean?  home_wifey_path):
+    20: 
+    21:    <div class="d-flex projects-first-block">
+    22:     <div class="d-inline-flex first-block-element">
+    23:       <%= link_to image_tag("code-pic.png", :class => "img-fluid first-block-element-picture"), home_array_path %>
+    24:     </div>
+    25: 
+    26:     <div class="d-inline-flex first-block-second-element">
+  
+app/views/home/projects.html.erb:23
+Started GET "/home/projects" for ::1 at 2022-09-04 19:30:54 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1598)
+  Rendered home/_leftbodyfile.html.erb (Duration: 2.2ms | Allocations: 705)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 5744)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 6790)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-09-04 19:30:54 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/wifey" for ::1 at 2022-09-04 19:30:56 -0500
+Processing by HomeController#wifey as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/wifey.html.erb within layouts/application
+  Rendered home/wifey.html.erb within layouts/application (Duration: 1.0ms | Allocations: 132)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.9ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3741)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4128)
+
+
+Started GET "/home/projects" for ::1 at 2022-09-04 19:31:14 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 29.7ms | Allocations: 5731)
+  Rendered layout layouts/application.html.erb (Duration: 30.0ms | Allocations: 5810)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms | Allocations: 6815)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_array_path' for #<ActionView::Base:0x0000000000cb70>
+Did you mean?  home_wifey_path):
+    20: 
+    21:    <div class="d-flex projects-first-block">
+    22:     <div class="d-inline-flex first-block-element">
+    23:       <%= link_to image_tag("code-pic.png", :class => "img-fluid first-block-element-picture"), home_array_path %>
+    24:     </div>
+    25: 
+    26:     <div class="d-inline-flex first-block-second-element">
+  
+app/views/home/projects.html.erb:23
+Started GET "/" for ::1 at 2022-09-04 19:32:32 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 3361)
+  Rendered home/_leftbodyfile.html.erb (Duration: 0.8ms | Allocations: 705)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 21217)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 22047)
+
+
+Started GET "/LobsterTwo.tff" for ::1 at 2022-09-04 19:32:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LobsterTwo.tff"):
+  
+Started GET "/home/projects" for ::1 at 2022-09-04 19:32:36 -0500
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  Rendered home/projects.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1323)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.0ms | Allocations: 529)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 4748)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 5073)
+
+
+Started GET "/home/array" for ::1 at 2022-09-04 19:32:37 -0500
+Processing by HomeController#array as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/array.html.erb within layouts/application
+  Rendered home/array.html.erb within layouts/application (Duration: 1.0ms | Allocations: 135)
+  Rendered home/_leftbodyfile.html.erb (Duration: 1.6ms | Allocations: 547)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3765)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4146)
+
+

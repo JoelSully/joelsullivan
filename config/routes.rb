@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'home/wifey'
   get 'home/animals'
   get 'home/projects'
+  get 'home/array'
   
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   root 'home#index'

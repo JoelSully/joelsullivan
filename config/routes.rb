@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   #get 'home/index'
+  get 'projects/carousel'
+  get 'projects/fpcard'
   get 'home/hometown'
   get 'home/travel'
   get 'home/wedding'
